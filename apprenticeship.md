@@ -12,9 +12,9 @@ Qualifications:
 ============= 
 Born again Christian that is FAT!
 
-**F** - Faithful
-**A** - Available
-**T** - Teachable
+**F** - Faithful  
+**A** - Available  
+**T** - Teachable  
 
 Responsibilities: 
 ============= 
