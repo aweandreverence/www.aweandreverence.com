@@ -2,18 +2,19 @@ Introduction:
 ============= 
 Awe and Reverence (A&R) is a software company dedicated to build a God-glorifying, for-profit (read: sustainable), for-Kingdom benefit, cutting-edge Christian software company.
 
-In pursuit of that, our founder ([Jonathan Tsai](https://www.linkedin.com/in/jontsai/)) started an co-op/internship model at A&R to train aspiring Christian Software engineers to equip them with  tangible skills to succeed in their craft.  In the SF Bay Area, there is an ever-increasing number of people coming out of coding bootcamps trying to transition into Software roles from other industries, but unfortunately, that train has left about 3-4 years ago (circa 2015) where companies might give these bootcamp grads a chance; many people are now struggling to find employment after these bootcamps.
+In pursuit of that, our founder ([Jonathan Tsai](https://www.linkedin.com/in/jontsai/)) started an co-op/internship model at A&R to train aspiring Christian Software engineers to equip them with tangible skills to succeed in their craft.  In the SF Bay Area, there is an ever-increasing number of people coming out of coding bootcamps trying to transition into Software roles from other industries, but unfortunately, that train has left about 3-4 years ago (circa 2015) where companies might give these bootcamp grads a chance; many people are now struggling to find employment after these bootcamps.
 
 Jonathan has mentored dozens of engineers over the years, and through the Maskil co-op/internship has provided a post-bootcamp onboarding experience for more junior engineers to get real world, collaborative, team experience. Several of them have gone on to full-time software engineering roles and are junior, mid-level, and senior-level engineers at household-name tech companies.
 
-Not only will you gain invaluable experience, you'll also be paid for your work! Each feature/ task will have a bounty with a dollar amount associated with it. The larger the feature/task, the larger the bounty. We don't believe in muzzling the ox here.
+Not only will you gain invaluable experience, you'll also be paid for your work! Each feature/task will have a bounty with a dollar amount associated with it. The larger the feature/task, the larger the bounty. We don't believe in muzzling the ox here.
 
 Qualifications:
 ============= 
 Born again Christian that is FAT!
-F - Faithful
-A - Available
-T - Teachable
+
+**F** - Faithful
+**A** - Available
+**T** - Teachable
 
 Responsibilities: 
 ============= 
