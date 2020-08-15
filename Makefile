@@ -18,6 +18,7 @@ clean:
 build: clean install
 	yarn build
 	cp CNAME out/
+	touch out/.nojekyll
 
 ## deploy - build and deploy the app
 deploy: clean build
