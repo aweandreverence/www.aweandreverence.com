@@ -8,7 +8,7 @@ install:
 
 ## run - run the React Native app server
 run: install
-	yarn run start
+	yarn run build && yarn run start
 
 ## clean - clean previous builds
 clean:
