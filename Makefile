@@ -15,7 +15,7 @@ clean:
 	rm -rf out/*
 
 ## build - build the app for release
-build: install
+build: clean install
 	yarn build
 	cp CNAME out/
 
