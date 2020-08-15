@@ -6,7 +6,11 @@ help:
 install:
 	yarn install
 
-## run - run the React Native app server
+## dev - starts the Next.js development server on port 3000
+dev: install
+	yarn run dev
+
+## run - run the Next.js app server
 run: install
 	yarn run build && yarn run start
 
