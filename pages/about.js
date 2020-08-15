@@ -3,11 +3,11 @@ import Page from '../components/base_page';
 import css from '../styles/common.module.less';
 
 
-export default function Home() {
+export default function About() {
     return (
 <Page>
     <h1 className={css.title}>
-        Awe and Reverence
+        About Awe and Reverence
     </h1>
 
     <div className={css.grid}>
