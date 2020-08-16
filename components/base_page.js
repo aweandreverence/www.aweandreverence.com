@@ -21,6 +21,7 @@ export default function Page({children}) {
 
                 <link rel="icon" href="/favicon.ico" />
                 <CommonCSS />
+                <CommonJS />
             </Head>
             <Header />
             <main className={css.main}>
