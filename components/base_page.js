@@ -5,8 +5,8 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import NonBlockingJS from '../components/js/nonblocking';
 
-import css from '../styles/common.module.less';
-import utilsCss from '../styles/utils.module.less';
+import css from '../styles/common.module.scss';
+import utilsCss from '../styles/utils.module.scss';
 
 
 export default function Page({children}) {
@@ -15,7 +15,7 @@ export default function Page({children}) {
     <Head>
         <title>Awe and Reverence</title>
 
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
         <link rel="icon" href="/favicon.ico" />

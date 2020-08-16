@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import css from '../styles/header.module.less';
+import css from '../styles/header.module.scss';
 
 import Nav from 'react-bootstrap/Nav';
 //import NavItem from 'react-bootstrap/NavItem';

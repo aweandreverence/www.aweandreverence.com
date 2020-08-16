@@ -1,4 +1,4 @@
-import css from '../styles/footer.module.less';
+import css from '../styles/footer.module.scss';
 
 function Footer({ children }) {
     return (

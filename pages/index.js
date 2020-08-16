@@ -1,6 +1,6 @@
 import Page from '../components/base_page';
 
-import css from '../styles/common.module.less';
+import css from '../styles/common.module.scss';
 
 
 export default function Home() {

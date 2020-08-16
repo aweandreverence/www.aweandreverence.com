@@ -1,6 +1,4 @@
-//import 'bootstrap/dist/css/bootstrap.min.css';
-
-import css from '../styles/globals.less'
+import css from '../styles/globals.scss'
 
 function App({ Component, pageProps }) {
   return <Component {...pageProps} />
