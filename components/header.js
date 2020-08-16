@@ -9,22 +9,22 @@ import Nav from 'react-bootstrap/Nav';
 
 function Header({ children }) {
     return (
-<div className={css.header}>
-    <Nav>
-        <Nav.Item>
-            <Nav.Link href="/">Home</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link href="https://maskil.church">Maskil</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link href="/about">About</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-            <Nav.Link href="/apprenticeship">Apprenticeship</Nav.Link>
-        </Nav.Item>
-    </Nav>
-</div>
+        <div className={css.header}>
+            <Nav>
+                <Nav.Item>
+                    <Nav.Link href="/">Home</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href="https://maskil.church">Maskil</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href="/about">About</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link href="/apprenticeship">Apprenticeship</Nav.Link>
+                </Nav.Item>
+            </Nav>
+        </div>
     );
 }
 
