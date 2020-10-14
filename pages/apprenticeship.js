@@ -3,6 +3,7 @@ import Page from '../components/base_page';
 import css from '../styles/common.module.scss';
 
 import Button from 'react-bootstrap/Button';
+import Obfuscate from 'react-obfuscate';
 
 export default function Apprenticeship() {
     return (
@@ -68,11 +69,9 @@ export default function Apprenticeship() {
         
             <div className={css.card}>
                 <h3>Say Hello</h3>
-                <p>Interested in joining our software apprenticeship? We'd love to hear from you! Send an email on why you'll be a good fit for this apprenticeship to <b>apprenticeship@aweandreverence.com</b></p>
+                <p>Interested in joining our software apprenticeship? We'd love to hear from you! Send an email on why you'll be a good fit for this apprenticeship to <b><Obfuscate email="hello@aweandreverence.com" headers={{subject: 'Awe & Reverence\
+ Apprenticeship'}} /></b></p>
 
-                <br />
-
-                <Button href="mailto:apprenticeship@aweandreverence.com" variant="outline-dark">Contact Us</Button>
             </div>
 
         </Page>
