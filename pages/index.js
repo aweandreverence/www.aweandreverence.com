@@ -7,12 +7,14 @@ import Button from 'react-bootstrap/Button';
 export default function Home() {
     return (
         <Page>
-            <h1 className={css.title}>
-                Awe and Reverence
-            </h1>
-
-            <div>
-                <i>Because Your <b>lovingkindness is better</b> than life, My lips will praise You.</i> - Psalm 63:3
+            <div className={css.image}>
+                <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" />
+                <div className={css.imgtext}>
+                    <h1 className={css.title}>
+                        Awe and Reverence
+                    </h1>
+                    <i>Because Your <b>lovingkindness is better</b> than life, My lips will praise You.</i> - Psalm 63:3
+                </div>
             </div>
 
             <br />
