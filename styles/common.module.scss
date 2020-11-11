@@ -14,6 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Times New Roman";
 }
 
 .title {
@@ -62,6 +63,22 @@
     }
 }
 
-.hidden {
-    display: none;
+.imgtext {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.image {
+    position: relative;
+
+    img {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
