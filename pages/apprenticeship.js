@@ -13,6 +13,8 @@ export default function Apprenticeship() {
             </h1>
 
             <br />
+
+            <img src="https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80" className={css.image} />
         
             <div className={css.card}>
 
