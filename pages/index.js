@@ -7,9 +7,9 @@ import Button from 'react-bootstrap/Button';
 export default function Home() {
     return (
         <Page>
-            <div className={css.image}>
+            <div className={css.imgwithtext}>
                 <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" />
-                <div className={css.imgtext}>
+                <div>
                     <h1 className={css.title}>
                         Awe and Reverence
                     </h1>
