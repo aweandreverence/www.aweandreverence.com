@@ -1,3 +1,7 @@
+@timesnewroman: "Times New Roman", Times, Serif;
+@helvetica: "Helvetica Neue", Helvetica, Arial;
+@georgia: Georgia, Times, "Times New Roman";
+
 .container {
     min-height: 100vh;
     padding: 0 0.5rem;
@@ -8,19 +12,27 @@
 }
 
 .main {
+    max-width: 1440px;
+    width: 100%;
     padding: 5rem 0;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: "Times New Roman";
+    font-family: helvetica;
+
+    h3 {
+        font-family: georgia;
+        font-weight: bold;
+    }
 }
 
 .title {
     margin: 0;
     line-height: 1.15;
     font-size: 4rem;
+    font-family: timesnewroman;
 
     a {
         color: #0070f3;
@@ -47,10 +59,8 @@
     text-align: center;
     color: inherit;
     text-decoration: none;
-    border: 1px solid #eaeaea;
-    border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
-
+    
     h3 {
         margin: 0 0 1rem 0;
         font-size: 1.75rem;
