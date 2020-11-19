@@ -26,6 +26,12 @@
         font-family: georgia;
         font-weight: bold;
     }
+
+    hr {
+        width: 80%;
+        height: 1px;
+        background-color: #c8c8c8;
+    }
 }
 
 .title {
@@ -70,6 +76,7 @@
         margin: 0;
         font-size: 1.25rem;
         line-height: 1.5;
+        text-align: left;
     }
 }
 

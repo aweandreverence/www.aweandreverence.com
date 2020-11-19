@@ -26,7 +26,7 @@ export default function Home() {
                 <Button href="/apprenticeship" variant="outline-dark">Learn More</Button>
             </div>
             
-            <br />
+            <hr />
 
             <div className={css.card}>
                 <h3>Who We Are</h3>
@@ -34,6 +34,8 @@ export default function Home() {
                 <br />
                 <Button href="/about" variant="outline-dark">Read More</Button>
             </div>
+
+            <hr />
         </Page>
     );
 }
