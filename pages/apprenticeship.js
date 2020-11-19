@@ -67,12 +67,11 @@ export default function Apprenticeship() {
 
             </div>
 
-            <br />
+            <hr />
         
             <div className={css.card}>
                 <h3>Say Hello</h3>
-                <p>Interested in joining our software apprenticeship? We'd love to hear from you! Send an email on why you'll be a good fit for this apprenticeship to <b><Obfuscate email="hello@aweandreverence.com" headers={{subject: 'Awe & Reverence\
- Apprenticeship'}} /></b></p>
+                <p>Interested in joining our software apprenticeship? We'd love to hear from you! Send an email on why you'll be a good fit for this apprenticeship to <b><Obfuscate email="hello@aweandreverence.com" headers={{subject: 'Awe & Reverence Apprenticeship'}} /></b></p>
 
             </div>
 
