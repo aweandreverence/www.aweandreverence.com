@@ -5,6 +5,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import CommonJS from '../components/js/common';
 import NonBlockingJS from '../components/js/nonblocking';
+import Contact from '../components/contact';
 
 import css from '../styles/common.module.scss';
 import utilsCss from '../styles/utils.module.scss';
@@ -26,6 +27,7 @@ export default function Page({children}) {
             <Header />
             <main className={css.main}>
                 {children}
+                <Contact />        
             </main>
             <Footer />
             <NonBlockingJS />

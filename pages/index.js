@@ -35,7 +35,6 @@ export default function Home() {
                 <Button href="/about" variant="outline-dark">Read More</Button>
             </div>
 
-            <hr />
         </Page>
     );
 }
