@@ -21,7 +21,7 @@ export default function Home() {
 
             <br />
             <Row>
-            <Col className={css.cardimage}><img src="https://images.unsplash.com/photo-1511162862207-a0857d04c7b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" /></Col>
+            <Col><img src="https://images.unsplash.com/photo-1511162862207-a0857d04c7b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" className={css.imgleft} /></Col>
                 <Col>
                     <div className={css.card}>
                         <h3>Apprenticeship</h3>
