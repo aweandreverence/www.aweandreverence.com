@@ -107,14 +107,29 @@
     margin-right: auto;
 }
 
-.cardimage {
+.imgleft {
+    position: relative;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin: auto;
+}
 
-    img {
-        position: relative;
-        top: 50%;
-        left: 60%;
-        transform: translate(-50%, -50%);
-        width: 80%;
-        margin: auto;
-    }
+.textleft {
+    position: relative;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin: auto;
+}
+
+.right {
+    position: relative;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin: auto;
 }
