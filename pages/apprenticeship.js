@@ -13,11 +13,13 @@ export default function Apprenticeship() {
             </h1>
 
             <br />
+
+            <img src="https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80" className={css.image} />
         
             <div className={css.card}>
 
                 <h3>What is this?</h3>
-                <p>Our founder, Jonathan Tsai, started an apprenticeship program at Awe & Reverence (A&R) to train aspiring Christian software engineers to equip them with tangible skills to succeed in their craft. Jonathan has mentored dozens of engineers over the years, and through the software apprenticeship has provided a post-bootcamp onbaording experience for more junior engineers to get real world, collaborative, team experience. Several of them have gone on to full-time software engineering roles and are junior, mid-level, and senior-level engineers at household-name tech companies.</p>
+                <p>Our founder, Jonathan Tsai, started an apprenticeship program at Awe & Reverence (A&R) to train aspiring Christian software engineers to equip them with tangible skills to succeed in their craft. Jonathan has mentored dozens of engineers over the years, and through the software apprenticeship has provided a post-bootcamp onboarding experience for more junior engineers to get real world, collaborative, team experience. Several of them have gone on to full-time software engineering roles and are junior, mid-level, and senior-level engineers at household-name tech companies.</p>
 
                 <br />
 
@@ -65,12 +67,8 @@ export default function Apprenticeship() {
 
             </div>
 
-            <br />
-        
             <div className={css.card}>
-                <h3>Say Hello</h3>
-                <p>Interested in joining our software apprenticeship? We'd love to hear from you! Send an email on why you'll be a good fit for this apprenticeship to <b><Obfuscate email="hello@aweandreverence.com" headers={{subject: 'Awe & Reverence\
- Apprenticeship'}} /></b></p>
+                <p>Interested in joining our software apprenticeship? We'd love to hear from you! Send an email on why you'll be a good fit for this apprenticeship to <b><Obfuscate email="hello@aweandreverence.com" headers={{subject: 'Awe & Reverence Apprenticeship'}} /></b></p>
 
             </div>
 
