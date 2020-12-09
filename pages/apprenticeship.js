@@ -59,12 +59,13 @@ export default function Apprenticeship() {
 
                 <br />
 
-                <p>-Django</p>
-                <p>-React</p>
-                <p>-MySQL</p>
-                <p>-LESS CSS</p>
-                <p>-Git Workflow</p>
-
+                <ul>
+                    <li>Django</li>
+                    <li>React</li>
+                    <li>MySQL</li>
+                    <li>LESS CSS</li>
+                    <li>Git Workflow</li>
+                </ul>
             </div>
 
             <div className={css.card}>
