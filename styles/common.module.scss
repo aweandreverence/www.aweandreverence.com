@@ -14,7 +14,7 @@
 .main {
     max-width: 1440px;
     width: 100%;
-    padding: 5rem 0;
+    padding: 1.5rem 0;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -32,12 +32,17 @@
         height: 1px;
         background-color: #c8c8c8;
     }
+
+    ul {
+        text-align: left;
+    }
 }
 
 .title {
     margin: 0;
     line-height: 1.15;
-    font-size: 4rem;
+    font-size: 3rem;
+    margin-top: 1.5rem;
     font-family: timesnewroman;
 
     a {
@@ -74,7 +79,7 @@
 
     p {
         margin: 0;
-        font-size: 1.25rem;
+        font-size: 1.125rem;
         line-height: 1.5;
         text-align: left;
     }
@@ -84,7 +89,7 @@
     position: relative;
 
     img {
-        width: 100%;
+        width: 80%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -97,11 +102,12 @@
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
+        padding: 1.5rem;
     }
 }
 
 .image {
-    width: 100%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
