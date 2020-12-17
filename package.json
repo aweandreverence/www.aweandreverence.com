@@ -10,6 +10,7 @@
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^4.5.2",
+    "classnames": "^2.2.6",
     "jquery": "^3.5.1",
     "less": "^3.12.2",
     "next": "9.5.2",
