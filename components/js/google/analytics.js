@@ -1,7 +1,8 @@
 import Safe from 'react-safe';
 
+import Head from 'next/head';
 
-export default function GoogleAnalytics(props) {
+function GoogleAnalytics(props) {
     const gtagJS = `
 window.dataLayer = window.dataLayer || [];
 function gtag() {
@@ -14,8 +15,19 @@ gtag('config', '${props.trackingId}');
 
     return (
         <>
-            <script async src={'https://www.googletagmanager.com/gtag/js?id=' + props.trackingId}></script>
-            <Safe.script>{gtagJS}</Safe.script>
+            <Head>
+                <script
+                    async
+                    src={
+                        'https://www.googletagmanager.com/gtag/js?id=' +
+                        props.trackingId
+                    }
+                    key="google-analytics"
+                ></script>
+                <Safe.script>{gtagJS}</Safe.script>
+            </Head>
         </>
     );
 }
+
+export default GoogleAnalytics;

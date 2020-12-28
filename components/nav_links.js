@@ -1,20 +1,20 @@
 const nav_links = [
     {
-        'name': 'Home',
-        'url': '/'
+        name: 'Home',
+        url: '/',
     },
     {
-        'name': 'Maskil',
-        'url': 'https://maskil.church'
+        name: 'Maskil',
+        url: 'https://maskil.church',
     },
     {
-        'name': 'About',
-        'url': '/about'
+        name: 'About',
+        url: '/about',
     },
     {
-        'name': 'Apprenticeship',
-        'url': '/apprenticeship'
-    }
+        name: 'Apprenticeship',
+        url: '/apprenticeship',
+    },
 ];
 
 export default nav_links;
