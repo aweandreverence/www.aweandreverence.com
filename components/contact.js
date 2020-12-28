@@ -9,9 +9,11 @@ function Contact({ children }) {
             <hr />
             <br />
             <h3>Say Hello</h3>
-            <p>We'd love to hear from you!</p>
+            <p>We would love to hear from you!</p>
             <br />
-            <Obfuscate email="hello@aweandreverence.com"><Button variant="outline-dark">Contact Us</Button></Obfuscate>
+            <Obfuscate email="hello@aweandreverence.com">
+                <Button variant="outline-dark">Contact Us</Button>
+            </Obfuscate>
         </div>
     );
 }
