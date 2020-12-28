@@ -1,9 +1,11 @@
-import Page from '../components/base_page';
-
-import css from '../styles/common.module.scss';
-
 import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 import Obfuscate from 'react-obfuscate';
+
+import Page from '../components/base_page';
+import css from '../styles/common.module.scss';
+import SKILLS_LIST from '../components/skills_list.js';
 
 export default function Apprenticeship() {
     return (
@@ -15,7 +17,7 @@ export default function Apprenticeship() {
             <br />
 
             <img src="https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80" className={css.image} />
-        
+
             <div className={css.card}>
 
                 <h3>What is this?</h3>
@@ -59,13 +61,8 @@ export default function Apprenticeship() {
 
                 <br />
 
-                <ul>
-                    <li>Django</li>
-                    <li>React</li>
-                    <li>MySQL</li>
-                    <li>LESS CSS</li>
-                    <li>Git Workflow</li>
-                </ul>
+
+
             </div>
 
             <div className={css.card}>
