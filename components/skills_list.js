@@ -11,7 +11,11 @@ function SKILLS_LIST({children}) {
                 <h4 key={`skill-${i}-header`}>{SKILLS[i].header}</h4>
                 <ul>
                     {
-                        SKILLS[i].items.map((item, index) => (<li key={`skill-${i}:${index}`}>{item}</li>))
+                        SKILLS[i].items.map((item, index) => (
+                            <a href={SKILLS[i].links[index]} key={`link-${i}:${index}`}>
+                                <li key={`skill-${i}:${index}`}>{item}</li>
+                            </a>
+                        ))
                     }
                 </ul>
             </>
