@@ -61,7 +61,7 @@ export default function Apprenticeship() {
 
                 <br />
 
-
+                <SKILLS_LIST />
 
             </div>
 
