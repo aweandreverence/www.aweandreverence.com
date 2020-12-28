@@ -8,10 +8,10 @@ function SKILLS_LIST({children}) {
     for (var i = 0; i < SKILLS.length; i++) {
         cols.push(
             <>
-                <h4>{SKILLS[i].header}</h4>
+                <h4 key={`skill-${i}-header`}>{SKILLS[i].header}</h4>
                 <ul>
                     {
-                        SKILLS[i].items.map(item => (<li>{item}</li>))
+                        SKILLS[i].items.map((item, index) => (<li key={`skill-${i}:${index}`}>{item}</li>))
                     }
                 </ul>
             </>
@@ -20,7 +20,7 @@ function SKILLS_LIST({children}) {
     return (
         <div>
             <Row>
-                {cols.map(col => (<Col>{col}</Col>))}
+                {cols.map((col, index) => (<Col key={`col-${index}`}>{col}</Col>))}
             </Row>
         </div>
     );
