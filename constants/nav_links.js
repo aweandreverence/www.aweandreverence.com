@@ -1,4 +1,4 @@
-const nav_links = [
+const NAV_LINKS = [
     {
         name: 'Home',
         url: '/',
@@ -17,4 +17,4 @@ const nav_links = [
     },
 ];
 
-export default nav_links;
+export default NAV_LINKS;

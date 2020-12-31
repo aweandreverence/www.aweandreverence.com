@@ -16,3 +16,22 @@
         align-items: center;
     }
 }
+
+.facebook,
+.twitter {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 5px;
+    width: 46px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.facebook {
+    background: #4267b2;
+}
+
+.twitter {
+    background: #1da1f2;
+}
