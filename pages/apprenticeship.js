@@ -21,7 +21,7 @@ export default function Apprenticeship() {
             <div className={css.card}>
 
                 <h3>What is this?</h3>
-                <p>Our founder, Jonathan Tsai, started an apprenticeship program at Awe & Reverence (A&R) to train aspiring Christian software engineers to equip them with tangible skills to succeed in their craft. Jonathan has mntored dozens of engineers over the years, and through the software apprenticeship has provided a post-bootcamp onboarding experience for more junior engineers to get real world, collaborative, team experience. Several of them have gone on to full-time software engineering roles and are junior, mid-level, and senior-level engineers at household-name tech companies.</p>
+                <p>Our founder, Jonathan Tsai, started an apprenticeship program at Awe & Reverence (A&R) to train aspiring Christian software engineers to equip them with tangible skills to succeed in their craft. Jonathan has <b>mentored</b> dozens of engineers over the years, and through the software apprenticeship has provided a post-bootcamp onboarding experience for more junior engineers to get real world, collaborative, team experience. Several of them have gone on to full-time software engineering roles and are junior, mid-level, and senior-level engineers at household-name tech companies.</p>
 
                 <br />
 
