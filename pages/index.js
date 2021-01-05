@@ -25,7 +25,7 @@ export default function Home() {
                 <Col>
                     <div className={css.card}>
                         <h3>Apprenticeship</h3>
-                        <p>Our founder, Jonathan Tsai, started an apprenticeship program at A&R to train and equip aspiring Christian software engineers with tangible skills. In the SF Bay Area there is an ever-increasing number of people coming out of coding bootcamps trying to transition into software roles from other industries. Unfortunately, opportunities for bootcamp grads have severely declined since 2015 and many people are struggling to find employment after investing substantially into building their coding skills...</p>
+                        <p>In the SF Bay Area there is an ever-increasing number of people coming out of coding bootcamps trying to transition into software roles from other industries. Unfortunately, opportunities for bootcamp grads have severely declined since 2015 and many people are struggling to find employment after investing substantially into building their coding skills…</p>
                         <br />
                         <Button href="/apprenticeship" variant="outline-dark">Learn More</Button>
                     </div>
