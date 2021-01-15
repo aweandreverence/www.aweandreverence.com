@@ -10,20 +10,44 @@ library.add(fab, faFacebookF, faTwitter);
 
 function Footer({ children }) {
     return (
-        <footer className={css.footer}>
-            <a href='https://www.facebook.com/AweAndReverence' title='Awe & Reverence on Facebook' target='_blank'>
-                <div className={css.facebook}>
-                    <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-                </div>
-            </a>
+        <>
+            <link
+                rel="stylesheet"
+                href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+                integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+                crossOrigin="anonymous"
+            />
 
-            <a href='https://twitter.com/aweandreverence' title='Awe & Reverence on Twitter' target='_blank'>
-                <div className={css.twitter}>
-                    <FontAwesomeIcon icon={['fab', 'twitter']} />
+            <footer className={css.footer}>
+                <div className={css.socialmedia}>
+                    <div className={css.facebook}>
+                        <a
+                            href="https://www.facebook.com/AweAndReverence"
+                            title="Awe & Reverence on Facebook"
+                            target="_blank"
+                        >
+                            <div className={css.icon}>
+                                <FontAwesomeIcon icon={['fab', 'facebook-f']} />
+                            </div>
+                        </a>
+                    </div>
+                    <div className={css.twitter}>
+                        <a
+                            href="https://twitter.com/aweandreverence"
+                            title="Awe & Reverence on Twitter"
+                            target="_blank"
+                        >
+                            <div className={css.icon}>
+                                <FontAwesomeIcon icon={['fab', 'twitter']} />
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </a>
-            &copy; Awe and Reverence 2020
-        </footer>
+                <div className={css.copyright}>
+                    <p>&copy; Awe and Reverence 2020</p>
+                </div>
+            </footer>
+        </>
     );
 }
 
