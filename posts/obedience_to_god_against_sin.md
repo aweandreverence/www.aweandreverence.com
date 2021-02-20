@@ -1,0 +1,11 @@
+---
+title: 'Matthew 18:8-9 - Obedience to God Against Sin'
+date: '2009-12-15'
+---
+Passage: Matthew 18:8-9
+
+The heart of this passage is worship and obedience to God. The hand, foot, and eye are symbols used to represent any stumbling device in the believer’s life. Additionally, these may seem as core, essential, and very important parts of the body–no one would really cut off his own hand or foot, or gouge out his own eye without a good reason!
+
+However, consider when one of those body parts are gangrenous or have been infected with a mass of malignant cancer cells. Unless that part is amputated, the deadly disease would spread to other parts of the body, and the person would eventually die. If you ever meet an amputee or a person blind in one eye, you would be able to see that they can still live and perform daily life functions with some mechanical assistance. This is evidence that the person doesn’t need a seemingly very important body part to live.
+
+Jesus wasn’t just talking about body parts, though. The hand, foot, and eye can represent any sin or thing (situations, people, places, activities, substances, etc) in a believer’s life which cause him to sin. Sometimes, we see things in our lives as important and essential, and as things that we cannot give up. We must cut away those stumbling blocks and obstacles to our worship of God without any hesitation (Hebrews 12:1; Psalm 119:59-60), and trust that what God offers to us is far greater than the passing pleasures of sin (Hebrews 11:25).
