@@ -1,6 +1,7 @@
 ---
 title: 'Psalm 119:73 - Help Me, O My Creator'
 date: '2010-01-10'
+author: 'Jonathan Tsai'
 ---
 Passage: Psalm 119:73
 

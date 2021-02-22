@@ -1,6 +1,7 @@
 ---
 title: 'Matthew 7:13-27 - Genuine Christianity'
 date: '2009-06-12'
+author: 'Jonathan Tsai'
 ---
 Passage: Matthew 7:13-27
 

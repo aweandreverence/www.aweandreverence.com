@@ -10,7 +10,7 @@ export default function Blog({ allPostsData }) {
     return (
         <Page>
             <ul>
-                {allPostsData.map(({ id, date, title }) => (
+                {allPostsData.map(({ id, date, title, author }) => (
                     <li key={id}>
                         <Link href={`/posts/${id} `}>
                             <a>{title}</a>
@@ -18,6 +18,10 @@ export default function Blog({ allPostsData }) {
                         <br />
                         <small>
                             <Date dateString={date} />
+                        </small>
+                        <br />
+                        <small>
+                            <p>{author}</p>
                         </small>
                     </li>
                 ))}

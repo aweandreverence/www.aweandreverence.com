@@ -1,6 +1,7 @@
 ---
 title: 'Preface and Welcome'
 date: '2009-05-06'
+author: 'Jonathan Tsai'
 ---
 This is the first post, entry, or article on this site. Actualy, it is really the second; the first is the About page, so please check that out (also, to avoid repeating myself). There, I briefly discuss the heart behind this website, why I wanted to start it, and what I hope to accomplish through it.
 

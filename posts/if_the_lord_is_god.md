@@ -1,6 +1,7 @@
 ---
 title: '1 Kings 18:21 - If the LORD is God'
 date: '2009-06-12'
+author: 'Jonathan Tsai'
 ---
 Passage: 1 Kings 18:21 (Context: 1 Kings 18:17-40)
 

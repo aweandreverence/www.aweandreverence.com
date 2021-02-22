@@ -1,6 +1,7 @@
 ---
 title: 'Matthew 18:8-9 - Obedience to God Against Sin'
 date: '2009-12-15'
+author: 'Jonathan Tsai'
 ---
 Passage: Matthew 18:8-9
 
