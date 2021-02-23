@@ -9,6 +9,7 @@ import Date from '../components/date';
 export default function Blog({ allPostsData }) {
     return (
         <Page>
+            <h1 className={css.title}>Blog</h1>
             <ul>
                 {allPostsData.map(({ id, date, title, author }) => (
                     <li key={id}>

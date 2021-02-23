@@ -2,7 +2,7 @@ import Page from '../../components/base_page';
 import { getAllPostIds, getPostData } from '../../components/posts_data';
 import Date from '../../components/date';
 
-import css from '../../styles/common.module.scss';
+import css from '../../styles/blog.module.scss';
 
 import Head from 'next/head';
 
@@ -12,7 +12,7 @@ export default function Post({ postData }) {
             <Head>
                 <title>{postData.title}</title>
             </Head>
-            <div>
+            <div className={css.post}>
                 <h1>{postData.title}</h1>
                 <div>
                     <Date dateString={postData.date} />
