@@ -4,6 +4,10 @@ const NAV_LINKS = [
         url: '/',
     },
     {
+        name: 'Blog',
+        url: '/blog',
+    },
+    {
         name: 'Maskil',
         url: 'https://maskil.church',
     },
