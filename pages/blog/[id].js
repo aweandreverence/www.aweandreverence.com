@@ -11,7 +11,7 @@ export default function Post({ post }) {
     return (
         <Page>
             <Head>
-                <title>{post.meta.title}</title>
+                <title>{post.meta.title} | Blog | Awe & Reverence</title>
             </Head>
             <div className={css.post}>
                 <h1>{post.meta.title}</h1>

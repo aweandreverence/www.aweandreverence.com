@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -11,10 +12,23 @@ import css from '../styles/common.module.scss';
 import utilsCss from '../styles/utils.module.scss';
 
 export default function Page({ children }) {
+    const router = useRouter();
+    const path = router.pathname;
+    console.log(path);
     return (
         <div className={css.container}>
             <Head>
-                <title>Awe and Reverence</title>
+                <title>
+                    {path
+                        .replace(/\//, '')
+                        .replace(
+                            /\w+/,
+                            path.charAt(1).toUpperCase() +
+                                path.substring(2, path.length) +
+                                ' | '
+                        )}
+                    Awe & Reverence
+                </title>
 
                 <meta charSet="utf-8" />
                 <meta
