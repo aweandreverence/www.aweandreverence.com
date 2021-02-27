@@ -1,6 +1,8 @@
 import Page from '../../components/base_page';
 import Date from '../../components/date';
 
+import CONSTANTS from '../../components/constants';
+
 import { getPostsStaticPaths, getPost } from '../../utils/posts';
 
 import css from '../../styles/blog.module.scss';
@@ -11,7 +13,9 @@ export default function Post({ post }) {
     return (
         <Page>
             <Head>
-                <title>{post.meta.title} | Blog | Awe & Reverence</title>
+                <title>
+                    {post.meta.title} | Blog | {CONSTANTS.site_title}
+                </title>
             </Head>
             <div className={css.post}>
                 <h1>{post.meta.title}</h1>

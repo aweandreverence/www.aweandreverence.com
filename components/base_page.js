@@ -8,26 +8,20 @@ import CommonJS from '../components/js/common';
 import NonBlockingJS from '../components/js/nonblocking';
 import Contact from '../components/contact';
 
+import PAGE_TITLES from '../constants/page_titles';
+import CONSTANTS from '../components/constants';
+
 import css from '../styles/common.module.scss';
 import utilsCss from '../styles/utils.module.scss';
 
 export default function Page({ children }) {
     const router = useRouter();
     const path = router.pathname;
-    console.log(path);
     return (
         <div className={css.container}>
             <Head>
                 <title>
-                    {path
-                        .replace(/\//, '')
-                        .replace(
-                            /\w+/,
-                            path.charAt(1).toUpperCase() +
-                                path.substring(2, path.length) +
-                                ' | '
-                        )}
-                    Awe & Reverence
+                    {PAGE_TITLES[path]} | {CONSTANTS.site_title}
                 </title>
 
                 <meta charSet="utf-8" />
