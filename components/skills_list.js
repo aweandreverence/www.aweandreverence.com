@@ -1,22 +1,24 @@
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
-import SKILLS from '../constants/skills.js'
+import SKILLS from '../constants.js';
 
-function SKILLS_LIST({children}) {
+function SKILLS_LIST({ children }) {
     const cols = [];
     for (var i = 0; i < SKILLS.length; i++) {
         cols.push(
             <>
                 <h4 key={`skill-${i}-header`}>{SKILLS[i].header}</h4>
                 <ul>
-                    {
-                        SKILLS[i].items.map((item, index) => (
-                            <a href={SKILLS[i].links[index]} key={`link-${i}:${index}`}>
-                                <li key={`skill-${i}:${index}`}>{item}</li>
-                            </a>
-                        ))
-                    }
+                    {SKILLS[i].items.map((item, index) => (
+                        <a
+                            href={SKILLS[i].links[index]}
+                            key={`link-${i}:${index}`}
+                            target="_blank"
+                        >
+                            <li key={`skill-${i}:${index}`}>{item}</li>
+                        </a>
+                    ))}
                 </ul>
             </>
         );
@@ -24,9 +26,11 @@ function SKILLS_LIST({children}) {
     return (
         <div>
             <Row>
-                {cols.map((col, index) => (<Col key={`col-${index}`}>{col}</Col>))}
+                {cols.map((col, index) => (
+                    <Col key={`col-${index}`}>{col}</Col>
+                ))}
             </Row>
         </div>
     );
-};
+}
 export default SKILLS_LIST;

@@ -1,7 +1,7 @@
 import Page from '../../components/base_page';
 import Date from '../../components/date';
 
-import CONSTANTS from '../../components/constants';
+import SITE_TITLE from '../../constants.js';
 
 import { getPostsStaticPaths, getPost } from '../../utils/posts';
 
@@ -14,7 +14,7 @@ export default function Post({ post }) {
         <Page>
             <Head>
                 <title>
-                    {post.meta.title} | Blog | {CONSTANTS.site_title}
+                    {post.meta.title} | Blog | {SITE_TITLE}
                 </title>
             </Head>
             <div className={css.post}>
