@@ -1,7 +1,7 @@
 import Page from '../../components/base_page';
 import Date from '../../components/date';
 
-import SITE_TITLE from '../../constants.js';
+import { SITE_TITLE } from '../../constants/seo.js';
 
 import { getPostsStaticPaths, getPost } from '../../utils/posts';
 

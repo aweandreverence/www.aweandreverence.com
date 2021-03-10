@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 import css from '../styles/header.module.scss';
-import { NAV_LINKS } from '../constants.js';
+import NAV_LINKS from '../constants/nav_links.js';
 
 function Header({ children }) {
     const router = useRouter();

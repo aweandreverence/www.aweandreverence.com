@@ -8,8 +8,7 @@ import CommonJS from '../components/js/common';
 import NonBlockingJS from '../components/js/nonblocking';
 import Contact from '../components/contact';
 
-import PAGE_TITLES from '../constants/page_titles';
-import CONSTANTS from '../components/constants';
+import { SITE_TITLE, PAGE_TITLES } from '../constants/seo.js';
 
 import css from '../styles/common.module.scss';
 import utilsCss from '../styles/utils.module.scss';
@@ -21,7 +20,7 @@ export default function Page({ children }) {
         <div className={css.container}>
             <Head>
                 <title>
-                    {PAGE_TITLES[path]} | {CONSTANTS.site_title}
+                    {PAGE_TITLES[path]} | {SITE_TITLE}
                 </title>
 
                 <meta charSet="utf-8" />

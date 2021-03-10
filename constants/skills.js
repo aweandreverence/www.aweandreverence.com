@@ -1,39 +1,3 @@
-const SITE_TITLE = 'Awe & Reverence';
-
-const PAGE_TITLES = {
-    '/': 'Home',
-    '/blog': 'Blog',
-    '/about': 'About',
-    '/apprenticeship': 'Apprenticeship',
-};
-
-const NAV_LINKS = [
-    {
-        name: 'Home',
-        url: '/',
-    },
-    {
-        name: 'Blog',
-        url: '/blog',
-    },
-    {
-        name: 'Maskil',
-        url: 'https://maskil.church',
-    },
-    {
-        name: 'About',
-        url: '/about',
-    },
-    {
-        name: 'Apprenticeship',
-        url: '/apprenticeship',
-    },
-];
-
-// --------------------------------------------------
-// List of Skills
-// --------------------------------------------------
-
 const headers = ['Web and Frontend', 'Backend', 'Server'];
 
 const items = [
@@ -75,5 +39,3 @@ for (var i = 0; i < headers.length; i++) {
 }
 
 export default SKILLS;
-
-export { NAV_LINKS, PAGE_TITLES, SITE_TITLE };
