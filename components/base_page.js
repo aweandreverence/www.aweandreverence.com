@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -7,14 +8,20 @@ import CommonJS from '../components/js/common';
 import NonBlockingJS from '../components/js/nonblocking';
 import Contact from '../components/contact';
 
+import { SITE_TITLE, PAGE_TITLES } from '../constants/seo.js';
+
 import css from '../styles/common.module.scss';
 import utilsCss from '../styles/utils.module.scss';
 
 export default function Page({ children }) {
+    const router = useRouter();
+    const path = router.pathname;
     return (
         <div className={css.container}>
             <Head>
-                <title>Awe and Reverence</title>
+                <title>
+                    {PAGE_TITLES[path]} | {SITE_TITLE}
+                </title>
 
                 <meta charSet="utf-8" />
                 <meta
