@@ -38,7 +38,10 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-    const postId = params.id;
+    const seoTitleAndId = params.seoTitleAndId;
+    const parts = seoTitleAndId.split('-');
+    const postId = parts[parts.length - 1];
+
     const post = await getPost(postId);
 
     return {
