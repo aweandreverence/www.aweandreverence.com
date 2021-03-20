@@ -19,7 +19,14 @@ export default function Blog({ posts }) {
                 <ul>
                     {posts.map((post) => (
                         <li key={`post-${post.id}`}>
-                            <Link href="/blog/[id]" as={`/blog/${post.id}`}>
+                            <Link
+                                href={{
+                                    pathname: '/blog/[seoTitleAndId]',
+                                    query: {
+                                        seoTitleAndId: `${post.meta.seoTitle}-${post.id}`,
+                                    },
+                                }}
+                            >
                                 <a>{post.meta.title}</a>
                             </Link>
                             <br />
