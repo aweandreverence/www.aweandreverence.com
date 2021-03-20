@@ -19,7 +19,6 @@ export async function getPost(id) {
         .process(matterResult.content);
 
     const contentHtml = processedContent.toString();
-
     const post = {
         id,
         meta: {
@@ -29,7 +28,6 @@ export async function getPost(id) {
             html: contentHtml,
         },
     };
-
     return post;
 }
 
@@ -43,6 +41,10 @@ export function getPostMetadata(id) {
             ...matterResult.data,
         },
     };
+
+    const title = post.meta.title;
+    const seoTitle = title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    post.meta.seoTitle = seoTitle;
 
     return post;
 }
@@ -68,9 +70,11 @@ export function getPosts() {
 export function getPostsStaticPaths() {
     const postIds = getAllPostIds();
     const paths = postIds.map((postId) => {
+        const metadata = getPostMetadata(postId);
+        const seoTitle = metadata.meta.seoTitle;
         return {
             params: {
-                id: postId,
+                seoTitleAndId: `${seoTitle}-${postId}`,
             },
         };
     });
