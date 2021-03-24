@@ -43,7 +43,13 @@ export function getPostMetadata(id) {
     };
 
     const title = post.meta.title;
-    const seoTitle = title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    var seoTitle = title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    if (seoTitle.charAt(0) === '-') {
+	seoTitle = seoTitle.substring(1, seoTitle.length);
+    }
+    if (seoTitle.charAt(seoTitle.length - 1) === '-') {
+	seoTitle = seoTitle.substring(0, seoTitle.length - 1);
+    }
     post.meta.seoTitle = seoTitle;
 
     return post;
