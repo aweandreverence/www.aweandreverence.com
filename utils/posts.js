@@ -43,14 +43,7 @@ export function getPostMetadata(id) {
     };
 
     const title = post.meta.title;
-    var seoTitle = title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-
-    //Converts all dashes to spaces (whitespace)
-    seoTitle = seoTitle.replace(/\-/g, ' ');
-    //Removes whitespace from the ends
-    seoTitle = seoTitle.trim();
-    // Converts all spaces back to dashes
-    seoTitle = seoTitle.replace(/ /g, '-');
+    var seoTitle = title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim().replace(/ /g, '-');
 
     post.meta.seoTitle = seoTitle;
 
