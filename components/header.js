@@ -6,9 +6,9 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 import css from '../styles/header.module.scss';
-import NAV_LINKS from '../constants/nav_links.js';
+import { NAV_LINKS } from '../constants/nav_links.js';
 
-function Header({ children }) {
+export function Header({ children }) {
     const router = useRouter();
     const navItemsJSX = NAV_LINKS.map((link, index) => {
         const classes = classNames({
@@ -29,5 +29,3 @@ function Header({ children }) {
         </div>
     );
 }
-
-export default Header;

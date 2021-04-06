@@ -1,4 +1,4 @@
-export default function NonBlockingJS() {
+export function NonBlockingJS() {
     return (
 <>
     <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin="crossorigin"></script>

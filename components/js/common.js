@@ -1,6 +1,6 @@
-import GoogleAnalytics from './google/analytics';
+import { GoogleAnalytics } from './google/analytics';
 
-export default function CommonJS() {
+export function CommonJS() {
     const jsx = <GoogleAnalytics trackingId="UA-8680690-4" />;
     return jsx;
 }

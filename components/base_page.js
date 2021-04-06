@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-import Header from '../components/header';
-import Footer from '../components/footer';
-import CommonCSS from '../components/css/common';
-import CommonJS from '../components/js/common';
-import NonBlockingJS from '../components/js/nonblocking';
-import Contact from '../components/contact';
+import { Header } from '../components/header';
+import { Footer } from '../components/footer';
+import { CommonCSS } from '../components/css/common';
+import { CommonJS } from '../components/js/common';
+import { NonBlockingJS } from '../components/js/nonblocking';
+import { Contact } from '../components/contact';
 
 import { SITE_TITLE, PAGE_TITLES } from '../constants/seo.js';
 
