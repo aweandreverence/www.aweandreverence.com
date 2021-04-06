@@ -32,5 +32,8 @@
     "remark-html": "^13.0.1",
     "sass": "^1.26.10",
     "webpack": "^4.44.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
   }
 }

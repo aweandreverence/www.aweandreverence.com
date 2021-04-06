@@ -43,7 +43,8 @@ export function getPostMetadata(id) {
     };
 
     const title = post.meta.title;
-    const seoTitle = title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+    var seoTitle = title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim().replace(/ /g, '-');
+
     post.meta.seoTitle = seoTitle;
 
     return post;
