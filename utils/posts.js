@@ -44,12 +44,14 @@ export function getPostMetadata(id) {
 
     const title = post.meta.title;
     var seoTitle = title.toLowerCase().replace(/[^a-z0-9]+/g, '-');
-    if (seoTitle.charAt(0) === '-') {
-	seoTitle = seoTitle.substring(1, seoTitle.length);
-    }
-    if (seoTitle.charAt(seoTitle.length - 1) === '-') {
-	seoTitle = seoTitle.substring(0, seoTitle.length - 1);
-    }
+
+    //Converts all dashes to spaces (whitespace)
+    seoTitle = seoTitle.replace(/\-/g, ' ');
+    //Removes whitespace from the ends
+    seoTitle = seoTitle.trim();
+    // Converts all spaces back to dashes
+    seoTitle = seoTitle.replace(/ /g, '-');
+
     post.meta.seoTitle = seoTitle;
 
     return post;
