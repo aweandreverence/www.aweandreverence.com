@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Row from 'react-bootstrap/Row';
 
 import Page from '../../components/base_page';
 import { getPosts } from '../../utils/posts';
@@ -15,7 +14,12 @@ export default function Blog({ posts }) {
 
             <br />
 
-            <Row>
+            <img
+                src="https://images.unsplash.com/photo-1533000971552-6a962ff0b9f9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1267&q=80"
+                className={css.image}
+            />
+
+            <div className={css.card}>
                 <ul>
                     {posts.map((post) => (
                         <li key={`post-${post.id}`}>
@@ -38,7 +42,7 @@ export default function Blog({ posts }) {
                         </li>
                     ))}
                 </ul>
-            </Row>
+            </div>
         </Page>
     );
 }

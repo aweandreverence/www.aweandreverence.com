@@ -1,5 +1,4 @@
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Col, Row } from 'react-bootstrap';
 
 import Page from '../components/base_page';
 

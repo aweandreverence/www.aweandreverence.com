@@ -3,9 +3,7 @@ import { SITE_TITLE } from '../constants/seo.js';
 
 import css from '../styles/common.module.scss';
 
-import Button from 'react-bootstrap/Button';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Button, Col, Row } from 'react-bootstrap';
 
 export default function Home() {
     return (

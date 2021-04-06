@@ -1,9 +1,9 @@
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import SKILLS from '../constants/skills.js';
+import { SKILLS } from '../constants/skills.js';
 
-function SKILLS_LIST({ children }) {
+export function SKILLS_LIST({ children }) {
     const cols = [];
     for (var i = 0; i < SKILLS.length; i++) {
         cols.push(
@@ -33,4 +33,3 @@ function SKILLS_LIST({ children }) {
         </div>
     );
 }
-export default SKILLS_LIST;

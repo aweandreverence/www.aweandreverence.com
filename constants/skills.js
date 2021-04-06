@@ -38,4 +38,6 @@ for (var i = 0; i < headers.length; i++) {
     SKILLS.push(col);
 }
 
-export default SKILLS;
+module.exports = {
+    SKILLS,
+};
