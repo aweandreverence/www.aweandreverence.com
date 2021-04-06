@@ -1,11 +1,8 @@
-import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import Obfuscate from 'react-obfuscate';
 
 import Page from '../components/base_page';
 import css from '../styles/common.module.scss';
-import SKILLS_LIST from '../components/skills_list.js';
+import { SKILLS_LIST } from '../components/skills_list.js';
 
 export default function Apprenticeship() {
     return (
