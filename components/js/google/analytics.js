@@ -2,7 +2,7 @@ import Safe from 'react-safe';
 
 import Head from 'next/head';
 
-function GoogleAnalytics(props) {
+export function GoogleAnalytics(props) {
     const gtagJS = `
 window.dataLayer = window.dataLayer || [];
 function gtag() {
@@ -29,5 +29,3 @@ gtag('config', '${props.trackingId}');
         </>
     );
 }
-
-export default GoogleAnalytics;

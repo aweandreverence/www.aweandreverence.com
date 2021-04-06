@@ -8,7 +8,7 @@ import css from '../styles/footer.module.scss';
 
 library.add(fab, faFacebookF, faTwitter);
 
-function Footer({ children }) {
+export function Footer({ children }) {
     return (
         <>
             <footer className={css.footer}>
@@ -43,5 +43,3 @@ function Footer({ children }) {
         </>
     );
 }
-
-export default Footer;

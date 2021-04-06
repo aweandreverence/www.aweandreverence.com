@@ -1,9 +1,9 @@
 import css from '../styles/contact.module.scss';
 
-import Button from 'react-bootstrap/Button';
+import { Button } from 'react-bootstrap';
 import Obfuscate from 'react-obfuscate';
 
-function Contact({ children }) {
+export function Contact({ children }) {
     return (
         <div className={css.contact}>
             <hr />
@@ -17,5 +17,3 @@ function Contact({ children }) {
         </div>
     );
 }
-
-export default Contact;
