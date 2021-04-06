@@ -34,8 +34,8 @@ There are many serious indictments against feigned obedience in the Bible:
 
 Matthew 15:7-9 (NASB, c.f. Mark 7:6-8)
 
-> You hypocrites, rightly did Isaiah prophesy of you:
-> ‘THIS PEOPLE HONORS ME WITH THEIR LIPS, BUT THEIR HEART IS FAR AWAY FROM ME.
+> You hypocrites, rightly did Isaiah prophesy of you:  
+> ‘THIS PEOPLE HONORS ME WITH THEIR LIPS, BUT THEIR HEART IS FAR AWAY FROM ME.  
 > ‘BUT IN VAIN DO THEY WORSHIP ME, TEACHING AS DOCTRINES THE PRECEPTS OF MEN.'”
 
 Feigned obedience, simply put, is fake, phony, and false obedience.
@@ -44,10 +44,10 @@ Matthew 23:27 (NASB)
 
 > Woe to you, scribes and Pharisees, hypocrites! For you are like whitewashed tombs which on the outside appear beautiful, but inside they are full of dead men’s bones and all uncleanness.
 
-Who gives feigned obedience to God? Or if someone gives feigned obedience to God, what does that make him? Scriptures tell us that those who give feigned obedience to God are His enemies.
+Who gives feigned obedience to God? Or if someone gives feigned obedience to God, what does that make him? Scriptures tell us that those who give feigned obedience to God are His _enemies_.
 
 Psalm 66:3 (NASB)
-> Say to God, “How awesome are Your works!
+> Say to God, “How awesome are Your works!  
 > Because of the greatness of Your power Your enemies will give feigned obedience to You.
 
 That God is great, awesome, marvelous, and powerful is an undeniable fact to many people–yet for some of those people, they would bother to go to lengths to pretend to obey Him instead of actually doing it.”Do not be deceived, God is not mocked”(Galatians 6:7). If you realize now, be quick to turn and repent, for there is still yet hope; however, if you remain an enemy of God’s, He will certainly crush all His enemies and make them a footstool for His feet (Psalm 110:1).
