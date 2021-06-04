@@ -5,4 +5,6 @@ export const PAGE_TITLES = {
     '/blog': 'Blog',
     '/about': 'About',
     '/apprenticeship': 'Apprenticeship',
+    '/labs': 'Labs',
+    '/tags': 'Tags'
 };

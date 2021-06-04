@@ -2,6 +2,7 @@
 title: 'Matthew 21:28-32 – What God Wants'
 date: '2011-01-20'
 author: 'Jonathan Tsai'
+tags: 'obedience'
 ---
 Passage: Matthew 21:28-32
 
