@@ -8,8 +8,10 @@ import { getPostsStaticPaths, getPost } from '../../utils/posts';
 import css from '../../styles/blog.module.scss';
 
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Post({ post }) {
+    const tags = post.tags;
     return (
         <Page>
             <Head>
@@ -24,6 +26,29 @@ export default function Post({ post }) {
                     <p>
                         by <span>{post.meta.author}</span> -{' '}
                         <Date dateString={post.meta.date} />
+                        <br />
+                        <div>
+                            Tags:{' '}
+                            {tags
+                                ? tags.map((tag, index) => (
+                                      <>
+                                          <Link
+                                              href={{
+                                                  pathname: '/tags/[tag]',
+                                                  query: {
+                                                      tag: tag.id,
+                                                  },
+                                              }}
+                                          >
+                                              <a>{tag.content}</a>
+                                          </Link>
+                                          {index === tags.length - 1
+                                              ? ''
+                                              : ', '}
+                                      </>
+                                  ))
+                                : 'none'}
+                        </div>
                     </p>
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: post.content.html }} />
