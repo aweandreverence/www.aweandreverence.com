@@ -5,6 +5,7 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import css from '../styles/footer.module.scss';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 library.add(fab, faFacebookF, faTwitter);
 
