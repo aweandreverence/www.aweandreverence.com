@@ -12,6 +12,7 @@ import { SITE_TITLE, PAGE_TITLES } from '../constants/seo.js';
 
 import css from '../styles/common.module.scss';
 import utilsCss from '../styles/utils.module.scss';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 export default function Page({ children }) {
     const router = useRouter();
