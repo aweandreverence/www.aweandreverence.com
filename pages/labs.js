@@ -30,6 +30,13 @@ export default function Labs() {
                                 alpha, or beta) of development:
                                 <ul>
                                     <li>
+                                        <a href="https://john316.aweandreverence.com">
+                                            The Gospel
+                                        </a>{' '}
+                                        (React Native app for sharing the
+                                        gospel)
+                                    </li>
+                                    <li>
                                         <a href="http://treasuredword.aweandreverence.com">
                                             Treasured Word
                                         </a>{' '}
