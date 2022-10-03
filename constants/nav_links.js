@@ -12,6 +12,10 @@ export const NAV_LINKS = [
         url: 'https://maskil.church',
     },
     {
+        name: 'Awesome.Bible',
+        url: 'https://awesome.bible',
+    },
+    {
         name: 'About',
         url: '/about',
     },
