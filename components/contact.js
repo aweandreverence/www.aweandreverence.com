@@ -11,7 +11,7 @@ export function Contact({ children }) {
             <p>We would love to hear from you!</p>
             <br />
             <Obfuscate
-                className="btn btn-dark text-decoration-none"
+                className="btn btn-outline-dark"
                 email="hello@aweandreverence.com"
             >
                 Contact Us
