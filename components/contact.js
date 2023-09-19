@@ -1,6 +1,5 @@
 import css from '../styles/contact.module.scss';
 
-import { Button } from 'react-bootstrap';
 import Obfuscate from 'react-obfuscate';
 
 export function Contact({ children }) {
@@ -11,8 +10,11 @@ export function Contact({ children }) {
             <h3>Say Hello</h3>
             <p>We would love to hear from you!</p>
             <br />
-            <Obfuscate email="hello@aweandreverence.com">
-                <Button variant="outline-dark">Contact Us</Button>
+            <Obfuscate
+                className="btn btn-dark text-decoration-none"
+                email="hello@aweandreverence.com"
+            >
+                Contact Us
             </Obfuscate>
         </div>
     );
