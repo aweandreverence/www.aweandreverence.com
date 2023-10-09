@@ -22,3 +22,9 @@
         font-weight: bold;
     }
 }
+
+@media (max-width: 600px){
+    .header {
+        justify-content: flex-start;
+    }
+}
