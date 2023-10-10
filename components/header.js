@@ -26,7 +26,7 @@ export function Header({ children }) {
     });
     return (
         <div className={css.header}>
-            <Navbar expand="sm navbar-light">
+            <Navbar className={css.mobileHeadersWidth} expand="sm navbar-light">
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
