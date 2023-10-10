@@ -21,7 +21,7 @@ export default function Home() {
             </div>
 
             <br />
-            <Row className='d-flex flex-column-reverse flex-md-row w-md-75'>
+            <Row className={css.imgandtext}>
                 <Col>
                     <img
                         src="https://images.unsplash.com/photo-1511162862207-a0857d04c7b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"

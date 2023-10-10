@@ -2,12 +2,11 @@ import classNames from 'classnames';
 
 import Nav from 'react-bootstrap/Nav';
 
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import css from '../styles/header.module.scss';
-import { NAV_LINKS } from '../constants/nav_links.js';
 import { Container, Navbar } from 'react-bootstrap';
+import { NAV_LINKS } from '../constants/nav_links.js';
+import css from '../styles/header.module.scss';
 
 export function Header({ children }) {
     const router = useRouter();
@@ -18,7 +17,7 @@ export function Header({ children }) {
         });
         const target = link.url.substring(0, 4) === 'http' ? '_blank' : null;
         return (
-            <Nav.Item key={`link-${index}`}>
+            <Nav.Item className={css.headerItems} key={`link-${index}`}>
                 <Nav.Link href={link.url} className={classes} target={target}>
                     {link.name}
                 </Nav.Link>

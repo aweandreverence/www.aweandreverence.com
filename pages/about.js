@@ -11,7 +11,7 @@ export default function About() {
 
             <br />
 
-            <Row>
+            <Row className={css.imgandtext}>
                 <Col>
                     <div className={css.textleft}>
                         <div className={css.card}>
