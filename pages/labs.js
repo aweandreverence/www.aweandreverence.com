@@ -11,7 +11,7 @@ export default function Labs() {
 
             <br />
 
-            <Row className={css.imgandtext}>
+            <Row>
                 <Col>
                     <div className={css.textleft}>
                         <div className={css.card}>
@@ -28,38 +28,37 @@ export default function Labs() {
                                 The following are some of the products that are
                                 currently under various stages (prototype,
                                 alpha, or beta) of development:
-                                <ul>
-                                    <li>
-                                        <a href="https://john316.aweandreverence.com">
-                                            The Gospel
-                                        </a>{' '}
-                                        (React Native app for sharing the
-                                        gospel)
-                                    </li>
-                                    <li>
-                                        <a href="http://treasuredword.aweandreverence.com">
-                                            Treasured Word
-                                        </a>{' '}
-                                        (social "playlists" for the Bible)
-                                    </li>
-                                    <li>
-                                        <a href="http://imdbible.aweandreverence.com">
-                                            IMDBible
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://slackin.church">
-                                            Slackin.Church
-                                        </a>{' '}
-                                        (Slack bot for churches)
-                                    </li>
-                                    <li>
-                                        <a href="http://neighbornear.me">
-                                            NeighborNear.Me
-                                        </a>
-                                    </li>
-                                </ul>
                             </p>
+                            <ul>
+                                <li>
+                                    <a href="https://john316.aweandreverence.com">
+                                        The Gospel
+                                    </a>{' '}
+                                    (React Native app for sharing the gospel)
+                                </li>
+                                <li>
+                                    <a href="http://treasuredword.aweandreverence.com">
+                                        Treasured Word
+                                    </a>{' '}
+                                    (social "playlists" for the Bible)
+                                </li>
+                                <li>
+                                    <a href="http://imdbible.aweandreverence.com">
+                                        IMDBible
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://slackin.church">
+                                        Slackin.Church
+                                    </a>{' '}
+                                    (Slack bot for churches)
+                                </li>
+                                <li>
+                                    <a href="http://neighbornear.me">
+                                        NeighborNear.Me
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </Col>
