@@ -60,7 +60,7 @@ export default function About() {
                 <Col>
                     <img
                         src="https://images.unsplash.com/photo-1476041026529-411f6ae1de3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1300&q=80"
-                        className={css.right}
+                        className={css.imgright}
                     />
                 </Col>
             </Row>

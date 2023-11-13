@@ -65,7 +65,7 @@ export default function Labs() {
                 <Col>
                     <img
                         src="https://images.unsplash.com/photo-1531771686035-25f47595c87a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80"
-                        className={css.right}
+                        className={css.imgright}
                     />
                 </Col>
             </Row>

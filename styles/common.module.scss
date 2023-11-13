@@ -136,7 +136,7 @@
     margin: auto;
 }
 
-.right {
+.imgright {
     position: relative;
     top: 50%;
     left: 40%;
@@ -152,15 +152,15 @@
         width: 95%;
     }
 
+    .imgright {
+        left: 50%;
+    }
+
     .imgleft {
         left: 50%;
     }
 
     .textleft {
-        left: 50%;
-    }
-
-    .right {
         left: 50%;
     }
 
