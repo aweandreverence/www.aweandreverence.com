@@ -31,3 +31,8 @@ deploy: clean build
 	git add docs
 	git commit -m "Deploy `git rev-parse --verify HEAD`"
 	git push origin master
+
+## update-nvmrc - updates .nvmrc
+update-nvmrc:
+	node -v > .nvmrc
+	cat .nvmrc
