@@ -34,7 +34,7 @@ export default function Tag({ tagId, tagContent, posts }) {
                                     },
                                 }}
                             >
-                                <a>{post.meta.title}</a>
+                                {post.meta.title}
                             </Link>
                             <br />
                             <small>

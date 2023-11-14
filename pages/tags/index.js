@@ -24,7 +24,7 @@ export default function Tags({ tags }) {
                                     },
                                 }}
                             >
-                                <a>{tag.content}</a>
+                                {tag.content}
                             </Link>
                         </li>
                     ))}

@@ -31,7 +31,7 @@ export default function Blog({ posts }) {
                                     },
                                 }}
                             >
-                                <a>{post.meta.title}</a>
+                                {post.meta.title}
                             </Link>
                             <br />
                             <small>

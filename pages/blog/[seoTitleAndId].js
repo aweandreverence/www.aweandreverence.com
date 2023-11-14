@@ -40,7 +40,7 @@ export default function Post({ post }) {
                                                   },
                                               }}
                                           >
-                                              <a>{tag.content}</a>
+                                              {tag.content}
                                           </Link>
                                           {index === tags.length - 1
                                               ? ''
