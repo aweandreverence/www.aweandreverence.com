@@ -11,7 +11,7 @@ export default function Labs() {
 
             <br />
 
-            <Row>
+            <Row className={css.imgText}>
                 <Col>
                     <div className={css.textleft}>
                         <div className={css.card}>
@@ -28,45 +28,44 @@ export default function Labs() {
                                 The following are some of the products that are
                                 currently under various stages (prototype,
                                 alpha, or beta) of development:
-                                <ul>
-                                    <li>
-                                        <a href="https://john316.aweandreverence.com">
-                                            The Gospel
-                                        </a>{' '}
-                                        (React Native app for sharing the
-                                        gospel)
-                                    </li>
-                                    <li>
-                                        <a href="http://treasuredword.aweandreverence.com">
-                                            Treasured Word
-                                        </a>{' '}
-                                        (social "playlists" for the Bible)
-                                    </li>
-                                    <li>
-                                        <a href="http://imdbible.aweandreverence.com">
-                                            IMDBible
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://slackin.church">
-                                            Slackin.Church
-                                        </a>{' '}
-                                        (Slack bot for churches)
-                                    </li>
-                                    <li>
-                                        <a href="http://neighbornear.me">
-                                            NeighborNear.Me
-                                        </a>
-                                    </li>
-                                </ul>
                             </p>
+                            <ul>
+                                <li>
+                                    <a href="https://john316.aweandreverence.com">
+                                        The Gospel
+                                    </a>{' '}
+                                    (React Native app for sharing the gospel)
+                                </li>
+                                <li>
+                                    <a href="http://treasuredword.aweandreverence.com">
+                                        Treasured Word
+                                    </a>{' '}
+                                    (social "playlists" for the Bible)
+                                </li>
+                                <li>
+                                    <a href="http://imdbible.aweandreverence.com">
+                                        IMDBible
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://slackin.church">
+                                        Slackin.Church
+                                    </a>{' '}
+                                    (Slack bot for churches)
+                                </li>
+                                <li>
+                                    <a href="http://neighbornear.me">
+                                        NeighborNear.Me
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </Col>
                 <Col>
                     <img
                         src="https://images.unsplash.com/photo-1531771686035-25f47595c87a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1001&q=80"
-                        className={css.right}
+                        className={css.imgright}
                     />
                 </Col>
             </Row>
