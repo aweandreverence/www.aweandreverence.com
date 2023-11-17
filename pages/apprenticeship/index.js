@@ -1,8 +1,9 @@
+import Link from 'next/link';
 import Obfuscate from 'react-obfuscate';
 
-import Page from '../components/base_page';
-import css from '../styles/common.module.scss';
-import { SKILLS_LIST } from '../components/skills_list.js';
+import Page from '@/components/base_page';
+import css from '@/styles/common.module.scss';
+import { SKILLS_LIST } from '@/components/skills_list.js';
 
 export default function Apprenticeship() {
     return (
@@ -72,6 +73,23 @@ export default function Apprenticeship() {
                 <br />
 
                 <SKILLS_LIST />
+            </div>
+
+            <div className={css.card}>
+                <h3>Learning Methodologies</h3>
+
+                <p>
+                    Apprentices have opportunities to learn through working on
+                    real world, large-scale software engineering projects and
+                    assignments and in teams, so as to learn SDLC in a real work
+                    setting. We also have meetings throughout the week and
+                    opportunities to learn in a group setting through building
+                    functional software through live instruction (see{' '}
+                    <Link href="/apprenticeship/projects">
+                        some of the projects
+                    </Link>{' '}
+                    we have built through live instruction).
+                </p>
             </div>
 
             <div className={css.card}>
