@@ -49,8 +49,17 @@ class TicTacToe extends React.Component {
             currentPlayerIndex: 0,
             isFinished: false,
             winner: null,
+            winningCells: null,
             status: 'In Progress',
         };
+    }
+
+    cellWidth() {
+        return this.state.boardWidth / this.state.cols;
+    }
+
+    cellHeight() {
+        return this.state.boardHeight / this.state.rows;
     }
 
     setPlayers(numPlayers) {
@@ -107,7 +116,7 @@ class TicTacToe extends React.Component {
 
     updateGameState() {
         const board = this.state.board;
-        const winner = this.findWinner();
+        const { winner, winningCells } = this.findWinner();
         let hasAvailableMove = false;
         for (let i = 0; i < this.state.rows && !hasAvailableMove; ++i) {
             for (let j = 0; j < this.state.cols && !hasAvailableMove; ++j) {
@@ -122,9 +131,10 @@ class TicTacToe extends React.Component {
         if (winner) {
             // check for win condition
             this.setState({
-                status: 'Winner',
+                status: `${winner} is the winner!`,
                 isFinished: true,
                 winner: winner,
+                winningCells: winningCells,
             });
         } else if (!hasAvailableMove) {
             // check for finished - if no more available moves, then is a draw
@@ -148,6 +158,7 @@ class TicTacToe extends React.Component {
         const board = this.state.board;
 
         let winner = null;
+        let winningCells = null;
 
         for (let i = 0; i < rows && !winner; ++i) {
             for (let j = 0; j < cols && !winner; ++j) {
@@ -161,10 +172,11 @@ class TicTacToe extends React.Component {
                 if (j + (winCondition - 1) < cols) {
                     const candidateH = _.range(winCondition).map((k) => {
                         const pos = this.makePos(i, j + k);
-                        return board[pos];
+                        return pos;
                     });
                     winner = this.checkCandidateCellsForWinner(candidateH);
                     if (winner) {
+                        winningCells = candidateH;
                         break;
                     }
                 }
@@ -173,10 +185,11 @@ class TicTacToe extends React.Component {
                     // down (vertical)
                     const candidateV = _.range(winCondition).map((k) => {
                         const pos = this.makePos(i + k, j);
-                        return board[pos];
+                        return pos;
                     });
                     winner = this.checkCandidateCellsForWinner(candidateV);
                     if (winner) {
+                        winningCells = candidateV;
                         break;
                     }
 
@@ -184,10 +197,11 @@ class TicTacToe extends React.Component {
                     if (j - (winCondition - 1) >= 0) {
                         const candidateLD = _.range(winCondition).map((k) => {
                             const pos = this.makePos(i + k, j - k);
-                            return board[pos];
+                            return pos;
                         });
                         winner = this.checkCandidateCellsForWinner(candidateLD);
                         if (winner) {
+                            winningCells = candidateLD;
                             break;
                         }
                     }
@@ -196,10 +210,11 @@ class TicTacToe extends React.Component {
                     if (j + (winCondition - 1) < cols) {
                         const candidateRD = _.range(winCondition).map((k) => {
                             const pos = this.makePos(i + k, j + k);
-                            return board[pos];
+                            return pos;
                         });
                         winner = this.checkCandidateCellsForWinner(candidateRD);
                         if (winner) {
+                            winningCells = candidateRD;
                             break;
                         }
                     }
@@ -207,15 +222,26 @@ class TicTacToe extends React.Component {
             }
         }
 
-        return winner;
+        return {
+            winner,
+            winningCells,
+        };
     }
 
-    checkCandidateCellsForWinner(pieces) {
+    checkCandidateCellsForWinner(positions) {
+        const board = this.state.board;
+        const pieces = positions.map((pos) => {
+            return board[pos];
+        });
         // returns winner if all pieces in `pieces` list are the same
         const set = new Set(pieces);
         const winner =
             set.size === 1 && pieces[0] !== undefined ? pieces[0] : null;
         return winner;
+    }
+
+    hasWinningCell(pos) {
+        return this.state.winningCells && this.state.winningCells.includes(pos);
     }
 
     reset() {
@@ -224,6 +250,8 @@ class TicTacToe extends React.Component {
             currentPlayerIndex: 0,
             isFinished: false,
             status: 'In Progress',
+            winner: null,
+            winningCells: null,
         });
     }
 
@@ -249,7 +277,7 @@ class TicTacToeBoard extends React.Component {
         return (
             <div
                 style={{
-                    border: '1px solid',
+                    border: '3px solid',
                     width: app.state.boardWidth,
                     height: app.state.boardHeight,
                     boxSizing: 'border-box',
@@ -258,7 +286,15 @@ class TicTacToeBoard extends React.Component {
             >
                 {_.range(rows).map((i) => {
                     return (
-                        <div style={{ boxSizing: 'border-box', margin: 0 }}>
+                        <div
+                            style={{
+                                boxSizing: 'content-box',
+                                margin: 0,
+                                width: app.state.boardWidth,
+                                height: app.cellHeight(),
+                                overflow: 'hidden',
+                            }}
+                        >
                             {_.range(cols).map((j) => {
                                 return (
                                     <TicTacToeBoardCell
@@ -291,20 +327,32 @@ class TicTacToeBoardCell extends React.Component {
         const board = this.props.board;
         const row = this.props.row;
         const col = this.props.col;
-        const piece = app.state.board[`${row}.${col}`] || '-';
+        const piece = app.state.board[`${row}.${col}`] || '';
+
+        const pos = app.makePos(row, col);
+        const isWinningCell = app.hasWinningCell(pos);
 
         // TODO: remove `- 20` offset which is used as a temp workaround
         return (
             <div
                 className="board-cell"
                 style={{
-                    width: (app.state.boardWidth - 20) / app.state.cols,
-                    height: (app.state.boardHeight - 20) / app.state.rows,
+                    width: app.cellWidth(),
+                    height: app.cellHeight(),
                     display: 'inline-block',
-                    border: '1px dashed',
-                    boxSizing: 'border-box',
+                    borderTop: `3px ${row === 0 ? 'none' : 'dotted'}`,
+                    borderBottom: '3px none',
+                    borderLeft: `3px ${col === 0 ? 'none' : 'dotted'}`,
+                    borderRight: '3px none',
+                    boxSizing: 'content-box',
                     margin: 0,
                     padding: 0,
+                    display: 'table-cell',
+                    textAlign: 'center',
+                    verticalAlign: 'middle',
+                    fontSize: ((app.cellWidth() + app.cellWidth()) / 2) * 0.8,
+                    [isWinningCell && 'backgroundColor']: 'green',
+                    overflow: 'hidden',
                 }}
                 onClick={this.placePiece.bind(this)}
             >
@@ -347,70 +395,109 @@ class TicTacToeControls extends React.Component {
         const winCondition = app.state.winCondition;
 
         const playersSelect = (
-            <select onChange={this.setPlayers.bind(this)}>
-                {_.range(app.state.minPlayers, app.state.maxPlayers + 1).map(
-                    (i) => {
+            <>
+                <label className="form-label">Num Players:</label>
+                <select
+                    className="form-control"
+                    onChange={this.setPlayers.bind(this)}
+                >
+                    {_.range(
+                        app.state.minPlayers,
+                        app.state.maxPlayers + 1
+                    ).map((i) => {
                         return (
                             <option value={i} selected={i == numPlayers}>
                                 {i}
                             </option>
                         );
-                    }
-                )}
-            </select>
+                    })}
+                </select>
+            </>
         );
         const colSelect = (
-            <select onChange={this.setCols.bind(this)}>
-                {_.range(app.state.minCols, app.state.maxCols + 1).map((i) => {
-                    return (
-                        <option value={i} selected={i == cols}>
-                            {i}
-                        </option>
-                    );
-                })}
-            </select>
+            <>
+                <label className="form-label">Cols:</label>
+                <select
+                    className="form-control"
+                    onChange={this.setCols.bind(this)}
+                >
+                    {_.range(app.state.minCols, app.state.maxCols + 1).map(
+                        (i) => {
+                            return (
+                                <option value={i} selected={i == cols}>
+                                    {i}
+                                </option>
+                            );
+                        }
+                    )}
+                </select>
+            </>
         );
         const rowSelect = (
-            <select onChange={this.setRows.bind(this)}>
-                {_.range(app.state.minRows, app.state.maxRows + 1).map((i) => {
-                    return (
-                        <option value={i} selected={i == rows}>
-                            {i}
-                        </option>
-                    );
-                })}
-            </select>
+            <>
+                <label className="form-label">Rows:</label>
+
+                <select
+                    className="form-control"
+                    onChange={this.setRows.bind(this)}
+                >
+                    {_.range(app.state.minRows, app.state.maxRows + 1).map(
+                        (i) => {
+                            return (
+                                <option value={i} selected={i == rows}>
+                                    {i}
+                                </option>
+                            );
+                        }
+                    )}
+                </select>
+            </>
         );
         const winConditionSelect = (
-            <select onChange={this.setWinCondition.bind(this)}>
-                {_.range(
-                    app.state.minWinCondition,
-                    app.state.maxWinCondition + 1
-                ).map((i) => {
-                    return (
-                        <option value={i} selected={i == winCondition}>
-                            {i}
-                        </option>
-                    );
-                })}
-            </select>
+            <>
+                <label className="form-label">Win Condition:</label>
+
+                <select
+                    className="form-control"
+                    onChange={this.setWinCondition.bind(this)}
+                >
+                    {_.range(
+                        app.state.minWinCondition,
+                        app.state.maxWinCondition + 1
+                    ).map((i) => {
+                        return (
+                            <option value={i} selected={i == winCondition}>
+                                {i}
+                            </option>
+                        );
+                    })}
+                </select>
+            </>
         );
 
         return (
-            <div style={{ border: '1px solid' }}>
-                Num Players:
+            <div
+                style={{
+                    border: '1px solid',
+                    //marginTop: 40,
+                    width: 300,
+                    margin: '40px auto',
+                }}
+            >
                 {playersSelect}
                 <br />
-                Cols:
                 {colSelect}
                 <br />
-                Rows:
                 {rowSelect}
                 <br />
-                Win Condition:
                 {winConditionSelect}
                 <br />
-                <button onClick={this.reset.bind(this)}>Reset</button>
+                <button
+                    className="btn btn-primary"
+                    onClick={this.reset.bind(this)}
+                >
+                    Reset
+                </button>
             </div>
         );
     }
