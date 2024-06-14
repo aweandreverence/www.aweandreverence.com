@@ -10,10 +10,6 @@ install:
 dev: install
 	yarn run dev
 
-## run - run the Next.js app server
-run: install
-	yarn run build && yarn run start
-
 ## clean - clean previous builds
 clean:
 	rm -rf out/*
