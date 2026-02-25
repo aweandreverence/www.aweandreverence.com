@@ -1,4 +1,4 @@
-import { GoogleAnalytics } from './google/analytics';
+import { GoogleAnalytics } from '@hacktoolkit/nextjs-htk/components';
 
 export function CommonJS() {
     const jsx = <GoogleAnalytics trackingId="UA-8680690-4" />;
