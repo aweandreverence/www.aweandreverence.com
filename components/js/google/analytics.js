@@ -1,31 +1,27 @@
-import Safe from 'react-safe';
+'use client';
 
-import Head from 'next/head';
+import Script from 'next/script';
 
-export function GoogleAnalytics(props) {
-    const gtagJS = `
-window.dataLayer = window.dataLayer || [];
-function gtag() {
-    dataLayer.push(arguments);
-}
-gtag('js', new Date());
-
-gtag('config', '${props.trackingId}');
-`;
+export function GoogleAnalytics({ trackingId }) {
+    // Don't render if no tracking ID
+    if (!trackingId) {
+        return null;
+    }
 
     return (
         <>
-            <Head>
-                <script
-                    async
-                    src={
-                        'https://www.googletagmanager.com/gtag/js?id=' +
-                        props.trackingId
-                    }
-                    key="google-analytics"
-                ></script>
-                <Safe.script>{gtagJS}</Safe.script>
-            </Head>
+            <Script
+                src={`https://www.googletagmanager.com/gtag/js?id=${trackingId}`}
+                strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+                {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${trackingId}');
+                `}
+            </Script>
         </>
     );
 }

@@ -16,18 +16,16 @@ run: install
 
 ## clean - clean previous builds
 clean:
-	rm -rf out/*
+	rm -rf docs/*
 
 ## build - build the app for release
 build: clean install
 	yarn build
-	cp CNAME out/
-	touch out/.nojekyll
+	cp CNAME docs/
+	touch docs/.nojekyll
 
 ## deploy - build and deploy the app
-deploy: clean build
-	rm -rf docs/
-	mv out docs
+deploy: build
 	git add docs
 	git commit -m "Deploy `git rev-parse --verify HEAD`"
 	git push origin master
