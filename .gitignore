@@ -4,6 +4,8 @@
 node_modules
 .pnp
 .pnp.js
+.pnp.*
+.yarn/*
 
 # testing
 coverage/
@@ -19,6 +21,7 @@ build/
 .DS_Store
 *.pem
 *~
+.cache/
 
 # debug
 npm-debug.log*
@@ -33,3 +36,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# drafts
+src/posts/drafts/
