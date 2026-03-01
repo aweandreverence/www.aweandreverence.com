@@ -3,7 +3,7 @@ title: 'AI and God'
 date: '2026-03-01'
 author: 'Jonathan Tsai'
 tags: 'AI, artificial intelligence, technology, wisdom, stewardship, gospel, eschatology'
-image: 'https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=1200&h=600&fit=crop'
+image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&h=600&fit=crop'
 ---
 
 _The horse and its rider, thrown into the sea_
