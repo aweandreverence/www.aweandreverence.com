@@ -10,6 +10,8 @@ _The horse and its rider, thrown into the sea_
 
 ---
 
+---
+
 ## Who Am I To Write This?
 
 I'm a software engineer with over two decades of professional experience. I've been programming for nearly 30 years. I'm not observing AI from a distance — I'm neck-deep in it, shipping code at inference speed, running agent swarms, watching this technology reshape my own profession in real time.
@@ -19,6 +21,8 @@ And I'm a Christian. Reformed, conservative, but not reactionary. I take the Bib
 So when I look at AI, I see it through both lenses — as someone who understands the technology intimately, and as someone who loves and fears the Lord Jesus Christ.
 
 **A note on tensions:** My conservative Christian friends sometimes think I'm too engulfed in technology. My technology coworkers often don't know I'm a Christian at all — or think I'm too religious when they find out. I see myself as extremely conservative and Biblical, but I also believe most Christians don't engage deeply enough with their society and community, and most technologists aren't thinking about Scripture at all. I hope to be a bridge between these two worlds. If the tensions in this essay feel uncomfortable, that's intentional; truth often lives in tension.
+
+---
 
 ## AI Is Here
 
@@ -38,6 +42,8 @@ They're [targeting](https://x.com/jack/status/2027290756793135253) **\$2M+ gross
 
 This is not an isolated case. This is the beginning of a pattern that will reshape every industry.
 
+---
+
 ## The Horse and the Rider
 
 During the time of the Exodus, and later during the times of kings, horses and chariots were the premier, eminent technology of the ancient world. They were the tanks and fighter jets of their day — overwhelming force that decided the fate of nations.
@@ -52,6 +58,8 @@ Then the sea closed.
 > — Exodus 15:1 (NASB)
 
 Miriam took up the tambourine and sang the same refrain (Exodus 15:21). The most advanced military technology of the ancient world was nothing before the God who parted waters and closed them again.
+
+---
 
 ## Do Not Boast in AI
 
@@ -78,6 +86,8 @@ The warning is clear: **Do not boast in AI. Boast in knowing the Lord God.**
 
 Technology comes and goes; empires rise and fall. This has not changed; this will not change.
 
+---
+
 ## AI Is a Tool
 
 Consider money — Scripture does not say money is evil:
@@ -90,6 +100,8 @@ It's the _love_ of money that's the problem. Money is a tool; it can build hospi
 AI is the same: it is a tool — perhaps the most powerful tool humanity has yet created. It can accelerate research or generate deepfakes to deceive; it can help pastors prepare sermons or produce content that corrodes the soul.
 
 The question is not whether you _can_ use this tool, but _how_ and _why_.
+
+---
 
 ## The Coming Disruption
 
@@ -108,6 +120,8 @@ The same will happen now.
 Block isn't laying off 4,000 people because robots can do their jobs. They're doing it because the remaining 6,000 — armed with AI tools — can do what 10,000 used to do. The work still gets done, just by fewer humans.
 
 The coming years will test the church's commitment to care for the vulnerable, to love our neighbors, to bear one another's burdens (Galatians 6:2).
+
+---
 
 ## AI Is Not God
 
@@ -131,6 +145,8 @@ God will humble the proud and arrogant (Isaiah 2:12). He will raise up the lowly
 
 No amount of compute will change this.
 
+---
+
 ## The Tower of Babel, Revisited
 
 Some are working on longevity — extending human lifespan, curing age-related diseases. This is reasonable; we should steward our bodies well.
@@ -145,6 +161,8 @@ This is not new. It is the Tower of Babel rebuilt with silicon and code.
 God's response then was to confuse their language and scatter them. His response to human hubris has not changed. Every attempt to storm heaven on our own terms ends the same way.
 
 Working on longevity is wise stewardship; pursuing technological immortality is fundamentally futile. Death entered the world through sin (Romans 5:12), and no amount of engineering will undo that reality. The only path to eternal life is not through silicon, but through the One who conquered death itself.
+
+---
 
 ## Be Wise With Your Time
 
@@ -164,6 +182,8 @@ A pastor who uses AI to help with sermon research is not abandoning the Spirit's
 
 Tools are tools; use them wisely.
 
+---
+
 ## Nothing New Under the Sun
 
 Solomon wrote:
@@ -182,6 +202,8 @@ These systems remix and recombine what humans have already thought, said, and wr
 Human nature has not changed. The heart is still "more deceitful than all else and is desperately sick" (Jeremiah 17:9); pride still comes before the fall (Proverbs 16:18); greed still corrupts; fear still paralyzes.
 
 That which has been is that which will be.
+
+---
 
 ## Honor God With Your Firstfruits
 
@@ -203,6 +225,8 @@ Here is what haunts me: We now have — or will soon have — the technological 
 The greatest strength is also the greatest weakness.
 
 Those who prosper in the age of AI will face a simple question: **What will you do with what you have been given?**
+
+---
 
 ## Night Is Coming
 
@@ -226,6 +250,8 @@ GRACE: God's Riches At Christ's Expense.
 This is not about religion or ritual; it is about relationship with the living God. And it is available to anyone who will receive it.
 
 If you're reading this and you've never seriously considered the claims of Jesus, I would personally invite you to reach out — to me, or to a Christian friend — and have an honest conversation about the Bible, about faith, about what it means to know God. The door is open; the invitation stands.
+
+---
 
 ## As For Me and My House
 
