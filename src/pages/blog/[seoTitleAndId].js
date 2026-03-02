@@ -12,14 +12,35 @@ import css from '@/styles/blog.module.scss';
 
 export default function Post({ post }) {
     const tags = post.tags;
+    const headerImage = post.meta.image;
+
     return (
         <Page>
             <Head>
                 <title>
                     {post.meta.title} | Blog | {SITE_TITLE}
                 </title>
+                {headerImage && (
+                    <meta property="og:image" content={headerImage} />
+                )}
             </Head>
             <div className={css.post}>
+                {headerImage && (
+                    <div className={css.headerImage}>
+                        <img
+                            src={headerImage}
+                            alt={post.meta.title}
+                            style={{
+                                width: '100%',
+                                height: 'auto',
+                                maxHeight: '400px',
+                                objectFit: 'cover',
+                                borderRadius: '8px',
+                                marginBottom: '1.5rem',
+                            }}
+                        />
+                    </div>
+                )}
                 <h1>{post.meta.title}</h1>
 
                 <div>
