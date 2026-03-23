@@ -17,7 +17,7 @@ export const NAV_LINKS = [
     },
     {
         name: 'AB506.church',
-        url: 'https://ab506.church',
+        url: 'https://www.ab506.church',
     },
     {
         name: 'About',
