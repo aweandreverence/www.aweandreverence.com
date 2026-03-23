@@ -16,6 +16,10 @@ export const NAV_LINKS = [
         url: 'https://awesome.bible',
     },
     {
+        name: 'AB506.church',
+        url: 'https://ab506.church',
+    },
+    {
         name: 'About',
         url: '/about',
     },
