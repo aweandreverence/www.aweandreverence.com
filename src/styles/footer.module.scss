@@ -1,11 +1,12 @@
 .footer {
     width: 100%;
-    height: 120px;
-    border-top: 1px solid #eaeaea;
+    background-color: var(--ar-charcoal);
+    color: #e7e5e4;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
+    padding: 2rem 1rem 1.5rem;
 
     img {
         margin-left: 0.5rem;
@@ -15,48 +16,80 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        color: #e7e5e4;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: var(--ar-gold-light);
+        }
     }
+}
+
+.divider {
+    width: 60px;
+    height: 2px;
+    background-color: var(--ar-gold);
+    margin: 1rem auto;
+    border: none;
 }
 
 .facebook,
 .twitter {
-    font-size: 1.5rem;
-    color: #fff;
+    font-size: 1.25rem;
+    color: #e7e5e4;
     padding: 5px;
-    height: 50px;
-    width: 50px;
-    margin: 15px;
-    border-radius: 5px;
+    height: 44px;
+    width: 44px;
+    margin: 0 10px;
+    border-radius: 50%;
     text-align: center;
     text-rendering: optimizeLegibility;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition:
+        border-color 0.2s ease,
+        color 0.2s ease;
+
+    &:hover {
+        border-color: var(--ar-gold);
+        color: var(--ar-gold-light);
+
+        a {
+            color: var(--ar-gold-light);
+        }
+    }
 }
 
 .facebook {
-    background: #4267b2;
     float: left;
-    content: '\f39e';
-    font-family: 'Font Awesome 5 Brands';
-    font-weight: 400;
 }
 
 .twitter {
-    background: #1da1f2;
     float: right;
 }
 
 .icon {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.socialmedia {
-    position: absolute;
-    top: 0;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
 .copyright {
-    position: absolute;
-    bottom: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8125rem;
+    color: var(--ar-text-muted);
+    letter-spacing: 0.04em;
+
+    p {
+        margin: 0;
+    }
 }
