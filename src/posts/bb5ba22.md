@@ -137,7 +137,7 @@ This is idolatry in new packaging.
 
 Consider: AI requires electricity to run. God can black out the sun — the source of all energy on Earth, the fusion reactor that powers every watt we generate. The God who spoke light into existence can extinguish it.
 
-I am personally a fan of Elon Musk and appreciate his technological and professional achievements; I know there are plans to build data centers in space — and it's not a bad idea from an engineering standpoint. But God, who holds the planets in His hands (Isaiah 40:12), can cause an asteroid to obliterate every solar farm and data center in orbit. If not in this life, then in the judgment to come — for "the conclusion, when all has been heard, is: fear God and keep His commandments, because this applies to every person. For God will bring every act to judgment, everything which is hidden, whether it is good or evil" (Ecclesiastes 12:13-14).
+I am personally a fan of Elon Musk and appreciate his technological and professional achievements; I know there are plans to build data centers in space — and it's not a bad idea from an engineering standpoint. But God, who holds the planets in His hands (Isaiah 40:12), can send an asteroid, a comet, or a piece of space debris to obliterate every satellite, solar farm, and data center in orbit. If not in this life, then in the judgment to come — for "the conclusion, when all has been heard, is: fear God and keep His commandments, because this applies to every person. For God will bring every act to judgment, everything which is hidden, whether it is good or evil" (Ecclesiastes 12:13-14).
 
 > I am the LORD, and there is no other;  
 > Besides Me there is no God.  
