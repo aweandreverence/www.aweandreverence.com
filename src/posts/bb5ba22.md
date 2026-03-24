@@ -20,7 +20,7 @@ And I'm a Christian. Reformed, conservative, but not reactionary. I take the Bib
 
 So when I look at AI, I see it through both lenses — as someone who understands the technology intimately, and as someone who loves and fears the Lord Jesus Christ.
 
-**A note on tensions:** My conservative Christian friends sometimes think I'm too engulfed in technology. My technology coworkers often don't know I'm a Christian at all — or think I'm too religious when they find out. I see myself as extremely conservative and Biblical, but I also believe most Christians don't engage deeply enough with their society and community, and most technologists aren't thinking about Scripture at all. I hope to be a bridge between these two worlds. If the tensions in this essay feel uncomfortable, that's intentional; truth often lives in tension.
+**A note on tensions:** My conservative Christian friends sometimes think I'm too engulfed in technology. My technology coworkers often don't know I'm a Christian at all — or think I'm too religious when they find out. There often seems to be a divide between biblical fidelity and cultural engagement — between those who take Scripture seriously and those who understand the technology shaping our world. This essay is an attempt to speak to both. If the tensions feel uncomfortable, that may be unavoidable; truth often lives in tension.
 
 ---
 
@@ -28,7 +28,7 @@ So when I look at AI, I see it through both lenses — as someone who understand
 
 This is not science fiction. This is not hype. This is not theoretical.
 
-From OpenAI to Anthropic, from Mistral to DeepSeek and Qwen, from simple chatbots to autonomous agents like [OpenClaw](https://github.com/openclaw/openclaw) and [Manus](https://manus.im/) that can code, research, and reason — artificial intelligence has arrived, and it's accelerating.
+From OpenAI to Anthropic, from Mistral to DeepSeek and Qwen, from simple chatbots to autonomous agents like [OpenClaw](https://github.com/openclaw/openclaw) and [Manus](https://manus.im/) that can code, research, and process complex information in ways that mimic reasoning — artificial intelligence has arrived, and it's accelerating.
 
 **Block's layoffs this week are a sign of the times.**
 
@@ -97,7 +97,9 @@ Consider money — Scripture does not say money is evil:
 
 It's the _love_ of money that's the problem. Money is a tool; it can build hospitals or fund human trafficking. The tool is morally neutral; the human heart is not.
 
-AI is the same: it is a tool — perhaps the most powerful tool humanity has yet created. It can accelerate research or generate deepfakes to deceive; it can help pastors prepare sermons or produce content that corrodes the soul.
+AI is the same: it is a tool — perhaps the most powerful tool humanity has yet created. It can accelerate research or generate deepfakes to deceive; it can assist pastors in studying the original languages and cross-referencing commentaries, or it can produce content that corrodes the soul.
+
+But a sober warning is needed here: AI-generated sermons and plagiarism have already become a plague in the church. A pastor who outsources the hard work of study, prayer, and personal wrestling with the text to a machine is not stewarding a tool — he is starving his own soul and the souls of his flock. The difference between using a concordance to go deeper and using AI to skip the work entirely is the difference between stewardship and sloth.
 
 The question is not whether you _can_ use this tool, but _how_ and _why_.
 
@@ -107,7 +109,7 @@ The question is not whether you _can_ use this tool, but _how_ and _why_.
 
 Let me be honest about what's coming, because I've lived it.
 
-AI will unlock an era of unprecedented productivity. I've personally experienced a 20-100x productivity multiplier in my own work after adopting these tools; that's not hyperbole — that's my lived experience.
+From what I have seen firsthand, AI is already unlocking an era of unprecedented productivity. I've personally experienced a 20-100x productivity multiplier in my own work after adopting these tools; that's not hyperbole — that's my lived experience.
 
 Before AI, an average day saw 0-1 pull requests merged; a good day was 3-4. Now I'm averaging 30-50 pull requests on an average day. On a good day? 200+. I'm just as busy as before — but doing far more. Items that have been on my todo lists for _years_ are finally getting done.
 
@@ -117,7 +119,7 @@ This is exactly what happened during the industrial revolution. Factories didn't
 
 The same will happen now.
 
-Block isn't laying off 4,000 people because robots can do their jobs. They're doing it because the remaining 6,000 — armed with AI tools — can do what 10,000 used to do. The work still gets done, just by fewer humans.
+Block isn't laying off 4,000 people because robots can do their jobs. They're doing it because the remaining employees — armed with AI tools — can be dramatically more productive. The work still gets done, just by fewer humans.
 
 The coming years will test the church's commitment to care for the vulnerable, to love our neighbors, to bear one another's burdens (Galatians 6:2).
 
@@ -149,7 +151,7 @@ No amount of compute will change this.
 
 ## The Tower of Babel, Revisited
 
-Some are working on longevity — extending human lifespan, curing age-related diseases. This is reasonable; we should steward our bodies well.
+Some are working on longevity — extending human lifespan, curing age-related diseases. This is reasonable; we should steward our bodies well and seek the good of our neighbors through our work.
 
 But others are working on something different: _immortality_. The dream of uploading consciousness, of transcending biological death, of becoming gods ourselves.
 
@@ -178,9 +180,9 @@ Yet for all Christians who are able — who have the time, means, resources, and
 
 Learning to use AI well is not capitulation to the spirit of the age; it is stewardship. It is doing more with less; it is being shrewd as serpents while remaining innocent as doves (Matthew 10:16).
 
-A pastor who uses AI to help with sermon research is not abandoning the Spirit's guidance — any more than a pastor who uses a concordance or commentary. A business owner who uses AI to serve customers better is not worshipping technology — any more than one who uses a telephone.
+A pastor who uses AI to assist in sermon _research_ — cross-referencing Greek lexicons, surveying commentaries, checking historical context — is not abandoning the Spirit's guidance, any more than a pastor who uses a concordance. But there is a critical line: AI as a shortcut to bypass the prayerful, reflective, soul-shaping work of sermon preparation is spiritual malpractice. The tool must serve the work, not replace it. A business owner who uses AI to serve customers better is not worshipping technology — any more than one who uses a telephone. But when AI replaces the personal, human dimension of service — when customers interact only with machines and never with people who bear God's image — something essential is lost.
 
-Tools are tools; use them wisely.
+Tools are tools. But the person wielding the tool must remain engaged, thoughtful, and present. Use them wisely.
 
 ---
 
@@ -197,7 +199,7 @@ Every "new" thing is recycling old things; AI is no exception.
 
 The large language models are trained on human text — including Scripture itself. [Meta has explicitly trained](https://decrypt.co/142265/meta-is-training-its-ai-on-the-bible-and-other-religious-texts) its LLaMA models on the Bible, pulling from FaithComesByHearing.com, GoTo.Bible, and Bible.com. Studies have [analyzed](https://aiandfaith.org/insights/bible-machine-learning-ai/) how models like GPT-4, Claude, LLaMA, and Mistral handle biblical texts.
 
-These systems remix and recombine what humans have already thought, said, and written. They are impressive; they are useful; they are not unprecedented in the spiritual economy.
+These systems remix and recombine what humans have already thought, said, and written. They are impressive; they are useful; they are not unprecedented in the spiritual economy. And here lies an opportunity: faithful Christian engineers and theologians could build tools grounded in sound doctrine — curating what these models ingest rather than leaving them to train on the undifferentiated mass of the internet.
 
 Human nature has not changed. The heart is still "more deceitful than all else and is desperately sick" (Jeremiah 17:9); pride still comes before the fall (Proverbs 16:18); greed still corrupts; fear still paralyzes.
 
@@ -220,7 +222,7 @@ For those Christians who prosper in this new era, remember:
 > The man who has two tunics is to share with him who has none; and he who has food is to do likewise.  
 > — Luke 3:11 (NASB)
 
-Here is what haunts me: We now have — or will soon have — the technological capacity to feed the hungry, clothe the poor, and house the homeless at a scale previously unimaginable. What we have lacked is not capability, but will; not resources, but righteousness.
+Here is what haunts me: We now have — or will soon have — the technological capacity to address human suffering at a scale previously unimaginable. The obstacles are not merely technological; government corruption, misguided policy, and the perverse incentives of dependency have historically undermined even well-funded efforts. Money alone has never been the biggest hurdle in meeting the needs of the world. But technology can address _some_ barriers that were previously insurmountable — and what remains is not a resource problem but a righteousness problem.
 
 The greatest strength is also the greatest weakness.
 
@@ -235,21 +237,26 @@ Jesus said:
 > "We must work the works of Him who sent Me as long as it is day; night is coming when no one can work."  
 > — John 9:4 (NASB)
 
-I believe AI will accelerate whatever is coming. I personally hold to a pre-tribulation, pre-millennial view of eschatology — but whatever your views on end times, the acceleration is undeniable. Technology compresses timelines; AI compresses them further.
+Jesus spoke these words about His own earthly ministry — the window of time the Father had given Him to accomplish His work before the cross. But the principle of urgency echoes throughout Scripture: our time is short, our days are numbered (Psalm 90:12), and the opportunity to work will not last forever.
 
-The question is not _if_ the night is coming, but _when_. And in the meantime, there is work to be done.
+Technology compresses timelines; AI compresses them further. The question is not _if_ the night is coming, but _when_. And in the meantime, there is work to be done.
 
-For believers, this means using every tool at our disposal — including AI — to advance the kingdom, to love our neighbors, to proclaim the good news while there is still day.
+For believers, this means using every tool at our disposal — including AI — in service of the kingdom. But let us be clear about what "advancing the kingdom" actually means: it is not primarily about information dissemination or technological scale. The need of the hour is personal, incarnational, human ministry — bearing one another's burdens face to face, discipling in relationship, being physically present with the suffering. AI can supplement this work; it cannot replace it. No algorithm can substitute for a believer who sits with someone in their grief, or shares a meal with the lonely, or opens the Scriptures with a new convert.
 
 For those who do not yet believe, I want to say something directly:
 
-**The gospel is simply this:** All of us have sinned and fallen short of God's glory (Romans 3:23). The wages of that sin is death — eternal separation from God (Romans 6:23). But God, being rich in mercy, sent His Son Jesus Christ to die in our place, taking the punishment we deserved (Romans 5:8). Through faith in Him — not through our own works or achievements — we receive forgiveness, reconciliation with God, and eternal life (Ephesians 2:8-9).
+All of us have sinned and fallen short of God's glory (Romans 3:23). The wages of that sin is death — eternal separation from the holy God who made us (Romans 6:23). We are not merely imperfect; we are rebels against our Creator, and no amount of self-improvement, moral effort, or technological achievement can bridge that gap.
 
-GRACE: God's Riches At Christ's Expense.
+But God, being rich in mercy, did what we could never do for ourselves. He sent His Son, Jesus Christ — fully God and fully man — to live the perfect life we could not live, and to die the death we deserved, bearing the full weight of God's wrath against sin on the cross (Romans 5:8; 2 Corinthians 5:21). Three days later, He rose from the dead, conquering sin and death forever (1 Corinthians 15:3-4).
 
-This is not about religion or ritual; it is about relationship with the living God. And it is available to anyone who will receive it.
+The call of the gospel is twofold: **repent and believe** (Mark 1:15). To repent means to turn — to acknowledge your sin as an offense against God, to grieve it, and to turn away from it and toward Christ. To believe means to trust not in yourself, your works, or your achievements, but in Jesus Christ alone as your Lord and Savior. This is not a transaction; it is a surrender. No one can embrace the Savior while clinging to sin and self. One must "become obedient from the heart to that form of teaching to which you were committed" (Romans 6:17).
 
-If you're reading this and you've never seriously considered the claims of Jesus, I would personally invite you to reach out — to me, or to a Christian friend — and have an honest conversation about the Bible, about faith, about what it means to know God. The door is open; the invitation stands.
+> "If you confess with your mouth Jesus as Lord, and believe in your heart that God raised Him from the dead, you will be saved."  
+> — Romans 10:9 (NASB)
+
+By grace you have been saved through faith; and that not of yourselves, it is the gift of God; not as a result of works, so that no one may boast (Ephesians 2:8-9). GRACE: God's Riches At Christ's Expense.
+
+This is not about religion or ritual. It is about being reconciled to the living God through the finished work of Jesus Christ. If you want to understand the gospel more fully, I invite you to read [a clear presentation of what it means to know God](https://www.sdg.church/gospel/). Or reach out — to me, or to a faithful Christian who takes the Bible seriously — and have an honest conversation. The door is open; the invitation stands.
 
 ---
 
