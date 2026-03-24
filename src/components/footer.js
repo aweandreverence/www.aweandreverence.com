@@ -10,6 +10,8 @@ import css from '@/styles/footer.module.scss';
 library.add(fab, faFacebookF, faTwitter);
 
 export function Footer({ children }) {
+    const currentYear = new Date().getFullYear();
+
     return (
         <>
             <footer className={css.footer}>
@@ -19,6 +21,7 @@ export function Footer({ children }) {
                             href="https://www.facebook.com/AweAndReverence"
                             title="Awe & Reverence on Facebook"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <div className={css.icon}>
                                 <FontAwesomeIcon icon={['fab', 'facebook-f']} />
@@ -30,6 +33,7 @@ export function Footer({ children }) {
                             href="https://twitter.com/aweandreverence"
                             title="Awe & Reverence on Twitter"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <div className={css.icon}>
                                 <FontAwesomeIcon icon={['fab', 'twitter']} />
@@ -37,8 +41,9 @@ export function Footer({ children }) {
                         </a>
                     </div>
                 </div>
+                <hr className={css.divider} />
                 <div className={css.copyright}>
-                    <p>&copy; Awe and Reverence 2020</p>
+                    <p>&copy; Awe &amp; Reverence {currentYear}</p>
                 </div>
             </footer>
         </>

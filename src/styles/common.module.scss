@@ -1,6 +1,5 @@
-@timesnewroman: "Times New Roman", Times, Serif;
-@helvetica: "Helvetica Neue", Helvetica, Arial;
-@georgia: Georgia, Times, "Times New Roman";
+$cormorant: 'Cormorant Garamond', Georgia, serif;
+$inter: 'Inter', sans-serif;
 
 .container {
     min-height: 100vh;
@@ -20,11 +19,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: helvetica;
+    font-family: $inter;
 
     h3 {
-        font-family: georgia;
-        font-weight: bold;
+        font-family: $cormorant;
+        font-weight: 600;
+        color: var(--ar-charcoal);
     }
 
     hr {
@@ -44,11 +44,13 @@
 
 .title {
     margin: 0;
-    line-height: 1.15;
-    font-size: 3rem;
+    line-height: 1.1;
+    font-size: 3.5rem;
     margin-top: 1.5rem;
     margin-bottom: 1rem;
-    font-family: timesnewroman;
+    font-family: $cormorant;
+    font-weight: 300;
+    letter-spacing: 0.02em;
 
     a {
         color: #0070f3;
@@ -87,8 +89,9 @@
     p {
         margin: 0;
         font-size: 1.125rem;
-        line-height: 1.5;
+        line-height: 1.7;
         text-align: left;
+        color: var(--ar-stone);
     }
 }
 
@@ -102,6 +105,17 @@
         margin-right: auto;
     }
 
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 80%;
+        height: 100%;
+        background: rgba(28, 25, 23, 0.5);
+        pointer-events: none;
+    }
+
     div {
         text-align: center;
         position: absolute;
@@ -110,6 +124,8 @@
         transform: translate(-50%, -50%);
         color: white;
         padding: 1.5rem;
+        z-index: 1;
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     }
 }
 
@@ -168,5 +184,9 @@
 
     .card {
         width: 95%;
+    }
+
+    .title {
+        font-size: 2.25rem;
     }
 }

@@ -4,8 +4,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Times New Roman';
+    font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.03em;
 
     img {
         margin-left: 0.5rem;
@@ -18,7 +20,8 @@
     }
 
     .active {
-        font-weight: bold;
+        font-weight: 700;
+        color: var(--ar-charcoal) !important;
     }
 }
 

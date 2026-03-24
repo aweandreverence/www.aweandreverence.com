@@ -2,7 +2,6 @@
     width: 100%;
     margin: 1rem;
     flex-basis: 45%;
-    //    padding: 1.5rem;
     text-align: center;
     color: inherit;
     text-decoration: none;
@@ -13,11 +12,13 @@
     h3 {
         margin: 0 0 1rem 0;
         font-size: 1.75rem;
+        font-family: 'Cormorant Garamond', Georgia, serif;
     }
 
     p {
         margin: 0;
         font-size: 1.25rem;
         line-height: 1.5;
+        color: var(--ar-stone);
     }
 }

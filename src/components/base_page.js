@@ -43,7 +43,7 @@ export default function Page({ children }) {
             <CommonCSS />
             <CommonJS />
             <Header />
-            <main className={css.main}>
+            <main id="main-content" className={css.main}>
                 {children}
                 <Contact />
             </main>
