@@ -9,7 +9,7 @@ export default function TermsOfService() {
 
             <br />
 
-            <div className={css.textleft}>
+            <div className={css.legalContent}>
                 <p>
                     <strong>Effective Date:</strong> April 3, 2026
                 </p>
