@@ -11,7 +11,7 @@ export default function Policies() {
 
             <br />
 
-            <div className={css.textleft}>
+            <div className={css.legalContent}>
                 <ul>
                     <li>
                         <Link href="/policies/tos">Terms of Service</Link>
