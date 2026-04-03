@@ -7,4 +7,7 @@ export const PAGE_TITLES = {
     '/apprenticeship': 'Apprenticeship',
     '/labs': 'Labs',
     '/tags': 'Tags',
+    '/policies': 'Policies',
+    '/policies/tos': 'Terms of Service',
+    '/policies/privacy': 'Privacy Policy',
 };

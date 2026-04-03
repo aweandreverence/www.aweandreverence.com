@@ -83,6 +83,24 @@
     margin-bottom: 0.5rem;
 }
 
+.legal {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8125rem;
+    color: var(--ar-text-muted);
+    letter-spacing: 0.04em;
+    margin-bottom: 0.5rem;
+
+    a {
+        display: inline;
+        font-size: 0.8125rem;
+        color: var(--ar-text-muted);
+
+        &:hover {
+            color: var(--ar-gold-light);
+        }
+    }
+}
+
 .copyright {
     font-family: 'Inter', sans-serif;
     font-size: 0.8125rem;

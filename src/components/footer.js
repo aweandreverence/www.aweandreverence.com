@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { library } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -42,6 +44,11 @@ export function Footer({ children }) {
                     </div>
                 </div>
                 <hr className={css.divider} />
+                <div className={css.legal}>
+                    <Link href="/policies/privacy">Privacy Policy</Link>
+                    {' · '}
+                    <Link href="/policies/tos">Terms of Service</Link>
+                </div>
                 <div className={css.copyright}>
                     <p>&copy; Awe &amp; Reverence {currentYear}</p>
                 </div>
