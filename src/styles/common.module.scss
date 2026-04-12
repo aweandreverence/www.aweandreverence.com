@@ -205,6 +205,10 @@ $inter: 'Inter', sans-serif;
         margin: 0;
     }
 
+    .mobileImageFirst {
+        flex-direction: column-reverse;
+    }
+
     .imgright,
     .imgleft,
     .textleft {
