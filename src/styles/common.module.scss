@@ -201,23 +201,31 @@ $inter: 'Inter', sans-serif;
     .imgText {
         display: flex;
         flex-direction: column;
-        width: 95%;
+        width: 100%;
+        margin: 0;
     }
 
-    .imgright {
-        left: 50%;
-    }
-
-    .imgleft {
-        left: 50%;
-    }
-
+    .imgright,
+    .imgleft,
     .textleft {
-        left: 50%;
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .imgright,
+    .imgleft {
+        max-width: 95%;
+        display: block;
     }
 
     .card {
-        width: 95%;
+        width: 100%;
+        margin: 0.75rem 0;
+        padding: 1rem;
     }
 
     .legalContent {
@@ -227,5 +235,6 @@ $inter: 'Inter', sans-serif;
 
     .title {
         font-size: 2.25rem;
+        margin-top: 0.75rem;
     }
 }
