@@ -53,7 +53,7 @@ make format     # Format code with prettier
 
 Before submitting changes:
 
-- [ ] `yarn build` succeeds without errors
+- [ ] `npm run build` succeeds without errors
 - [ ] No relative `../` imports to sibling directories (use `@/` aliases)
 - [ ] No secrets or credentials in committed files
 - [ ] Changes to `src/` are reflected in `docs/` via `make build`
