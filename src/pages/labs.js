@@ -11,7 +11,7 @@ export default function Labs() {
 
             <br />
 
-            <Row className={css.imgText}>
+            <Row className={`${css.imgText} ${css.mobileImageFirst}`}>
                 <Col>
                     <div className={css.textleft}>
                         <div className={css.card}>

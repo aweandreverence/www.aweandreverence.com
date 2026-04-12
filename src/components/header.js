@@ -14,6 +14,7 @@ export function Header({ children }) {
     const navItemsJSX = NAV_LINKS.map((link, index) => {
         const classes = classNames({
             [css.active]: link.url === router.pathname,
+            [css.navLink]: true,
             ...{ 'text-dark': true },
         });
         const target = link.url.substring(0, 4) === 'http' ? '_blank' : null;
@@ -27,11 +28,17 @@ export function Header({ children }) {
     });
     return (
         <div className={css.header}>
-            <Navbar className={css.mobileHeadersWidth} expand="sm navbar-light">
-                <Container>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav>{navItemsJSX}</Nav>
+            <Navbar className={css.navbar} expand="lg" collapseOnSelect>
+                <Container className={css.navContainer}>
+                    <Navbar.Toggle
+                        aria-controls="site-navbar-nav"
+                        className={css.toggle}
+                    />
+                    <Navbar.Collapse
+                        id="site-navbar-nav"
+                        className={css.collapse}
+                    >
+                        <Nav className={css.nav}>{navItemsJSX}</Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
