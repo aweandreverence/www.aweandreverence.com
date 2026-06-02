@@ -42,13 +42,8 @@ export function Header({ children }) {
                         aria-label="Awe & Reverence home"
                     >
                         <img
-                            src="/images/brand/awe-reverence-logomark.png"
-                            alt=""
-                            className={css.brandMark}
-                        />
-                        <img
                             src="/images/brand/awe-reverence-logotype.png"
-                            alt="Awe & Reverence"
+                            alt=""
                             className={css.brandWordmark}
                         />
                     </Navbar.Brand>

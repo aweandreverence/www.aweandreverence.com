@@ -137,17 +137,20 @@ $inter: 'Inter', sans-serif;
     justify-content: center;
     max-width: min(88vw, 31rem);
     padding: clamp(0.85rem, 2vw, 1.25rem) clamp(1rem, 3vw, 2rem);
-    color: var(--ar-charcoal);
-    background: rgba(255, 255, 255, 0.95);
-    border: 1px solid rgba(255, 255, 255, 0.82);
+    color: white;
+    background: transparent;
+    border: 0;
     border-radius: 1.5rem;
-    box-shadow: 0 1.25rem 3.5rem rgba(0, 0, 0, 0.22);
+    text-shadow: 0 0.2rem 1.25rem rgba(0, 0, 0, 0.85);
 }
 
 .heroLogo {
     width: clamp(9rem, 20vw, 13rem);
     height: auto;
     display: block;
+    filter: drop-shadow(0 0 0.22rem rgba(255, 255, 255, 0.95))
+        drop-shadow(0 0 0.7rem rgba(255, 255, 255, 0.5))
+        drop-shadow(0 0.75rem 1.75rem rgba(0, 0, 0, 0.7));
 }
 
 .heroVerse {
@@ -155,7 +158,10 @@ $inter: 'Inter', sans-serif;
     margin: 0.85rem 0 0;
     font-size: clamp(0.95rem, 1.4vw, 1.15rem);
     line-height: 1.5;
-    color: var(--ar-charcoal);
+    color: white;
+    text-shadow:
+        0 0.12rem 0.3rem rgba(0, 0, 0, 0.9),
+        0 0.45rem 1.4rem rgba(0, 0, 0, 0.8);
 }
 
 .heroVerse span {
