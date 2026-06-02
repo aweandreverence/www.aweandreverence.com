@@ -18,9 +18,15 @@ export function Header({ children }) {
             ...{ 'text-dark': true },
         });
         const target = link.url.substring(0, 4) === 'http' ? '_blank' : null;
+        const rel = target ? 'noreferrer' : null;
         return (
             <Nav.Item className={css.headerItems} key={`link-${index}`}>
-                <Nav.Link href={link.url} className={classes} target={target}>
+                <Nav.Link
+                    href={link.url}
+                    className={classes}
+                    target={target}
+                    rel={rel}
+                >
                     {link.name}
                 </Nav.Link>
             </Nav.Item>
@@ -30,6 +36,22 @@ export function Header({ children }) {
         <div className={css.header}>
             <Navbar className={css.navbar} expand="lg" collapseOnSelect>
                 <Container className={css.navContainer}>
+                    <Navbar.Brand
+                        href="/"
+                        className={css.brand}
+                        aria-label="Awe & Reverence home"
+                    >
+                        <img
+                            src="/images/brand/awe-reverence-logomark.png"
+                            alt=""
+                            className={css.brandMark}
+                        />
+                        <img
+                            src="/images/brand/awe-reverence-logotype.png"
+                            alt="Awe & Reverence"
+                            className={css.brandWordmark}
+                        />
+                    </Navbar.Brand>
                     <Navbar.Toggle
                         aria-controls="site-navbar-nav"
                         className={css.toggle}

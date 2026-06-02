@@ -5,12 +5,12 @@
     justify-content: center;
     align-items: center;
     font-family: 'Cormorant Garamond', Georgia, serif;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.03em;
 
     img {
-        margin-left: 0.5rem;
+        margin-left: 0;
     }
 
     .active {
@@ -28,24 +28,45 @@
     width: 100%;
     max-width: 1440px;
     padding: 0 1rem;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0;
+    margin-right: 0.9rem;
+    text-decoration: none;
+}
+
+.brandMark {
+    width: 2rem;
+    height: auto;
+    flex: 0 0 auto;
+}
+
+.brandWordmark {
+    width: clamp(6.75rem, 11vw, 8rem);
+    height: auto;
+    flex: 0 1 auto;
 }
 
 .nav {
     width: 100%;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .headerItems {
-    margin: 0 0.625rem;
+    margin: 0 0.45rem;
 }
 
 .navLink {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.9rem 0.2rem;
+    padding: 0.8rem 0.15rem;
     color: var(--ar-charcoal) !important;
 }
 
@@ -61,6 +82,18 @@
 @media (max-width: 991px) {
     .navContainer {
         padding: 0 0.75rem;
+    }
+
+    .brand {
+        margin-right: 0;
+    }
+
+    .brandMark {
+        width: 1.9rem;
+    }
+
+    .brandWordmark {
+        width: clamp(6.75rem, 38vw, 8rem);
     }
 
     .collapse {
