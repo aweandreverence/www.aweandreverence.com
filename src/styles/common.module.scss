@@ -138,10 +138,11 @@ $inter: 'Inter', sans-serif;
     max-width: min(88vw, 31rem);
     padding: clamp(0.85rem, 2vw, 1.25rem) clamp(1rem, 3vw, 2rem);
     color: var(--ar-charcoal);
-    background: rgba(255, 255, 255, 0.95);
-    border: 1px solid rgba(255, 255, 255, 0.82);
+    background: rgba(255, 255, 255, 0.68);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 1.5rem;
-    box-shadow: 0 1.25rem 3.5rem rgba(0, 0, 0, 0.22);
+    box-shadow: 0 1.25rem 3.5rem rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(6px);
 }
 
 .heroLogo {

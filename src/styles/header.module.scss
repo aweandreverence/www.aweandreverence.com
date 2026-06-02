@@ -34,20 +34,13 @@
 .brand {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
     padding: 0.35rem 0;
-    margin-right: 0.9rem;
+    margin-right: 1rem;
     text-decoration: none;
 }
 
-.brandMark {
-    width: 2rem;
-    height: auto;
-    flex: 0 0 auto;
-}
-
 .brandWordmark {
-    width: clamp(6.75rem, 11vw, 8rem);
+    width: clamp(7.5rem, 12vw, 9rem);
     height: auto;
     flex: 0 1 auto;
 }
@@ -88,12 +81,8 @@
         margin-right: 0;
     }
 
-    .brandMark {
-        width: 1.9rem;
-    }
-
     .brandWordmark {
-        width: clamp(6.75rem, 38vw, 8rem);
+        width: clamp(7rem, 40vw, 8.75rem);
     }
 
     .collapse {
