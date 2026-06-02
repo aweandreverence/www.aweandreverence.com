@@ -10,14 +10,27 @@ export default function Home() {
     return (
         <Page>
             <div className={css.imgwithtext}>
-                <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" />
+                <img
+                    src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                    alt="Sunlight breaking through a forest canopy"
+                    className={css.heroImage}
+                />
                 <div>
-                    <h1 className={css.title}>{SITE_TITLE}</h1>
-                    <i>
-                        Because Your <b>lovingkindness is better</b> than life,
-                        My lips will praise You.
-                    </i>{' '}
-                    - Psalm 63:3
+                    <div className={css.heroLogoPanel}>
+                        <img
+                            src="/images/brand/awe-reverence-logo_full.png"
+                            alt={SITE_TITLE}
+                            className={css.heroLogo}
+                        />
+                        <p className={css.heroVerse}>
+                            <i>
+                                Because Your <b>lovingkindness is better</b>{' '}
+                                than life, My lips will praise You.
+                            </i>{' '}
+                            <span>- Psalm 63:3</span>
+                        </p>
+                    </div>
+                    <h1 className={css.screenReaderOnly}>{SITE_TITLE}</h1>
                 </div>
             </div>
 
@@ -26,6 +39,7 @@ export default function Home() {
                 <Col>
                     <img
                         src="https://images.unsplash.com/photo-1511162862207-a0857d04c7b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                        alt="Open Bible on a table"
                         className={css.imgleft}
                     />
                 </Col>
