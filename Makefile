@@ -25,11 +25,9 @@ build: clean install
 	cp CNAME $(BUILD_DIR)/
 	touch $(BUILD_DIR)/.nojekyll
 
-## deploy - build and deploy the app
+## deploy - build docs for deployment; GitHub Actions publishes after merge
 deploy: build
-	git add $(BUILD_DIR)
-	git commit -m "Deploy `git rev-parse --verify HEAD`"
-	git push origin master
+	@echo "$(BUILD_DIR)/ is ready. Commit the docs changes in a PR; GitHub Actions deploys after merge to master."
 
 ## format - format code with prettier
 format:
