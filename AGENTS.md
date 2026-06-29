@@ -6,9 +6,9 @@
 
 - **Hosting**: GitHub Pages (static export)
 - **Build output**: `docs/` directory (configured via `next.config.js` `distDir`)
-- **Branch**: `master` is production — merges trigger deployment
+- **Branch**: `master` is production — merges trigger the GitHub Pages Actions workflow
 - **Build command**: `make build` (runs `next build`, copies `CNAME` and `.nojekyll`)
-- **Deploy command**: `make deploy` (builds, commits `docs/`, pushes to master)
+- **Deploy workflow**: `.github/workflows/deploy-pages.yml` uploads the committed `docs/` directory to GitHub Pages
 
 ## Repo Structure
 
@@ -57,3 +57,8 @@ Before submitting changes:
 - [ ] No relative `../` imports to sibling directories (use `@/` aliases)
 - [ ] No secrets or credentials in committed files
 - [ ] Changes to `src/` are reflected in `docs/` via `make build`
+- [ ] Deployment changes preserve the committed `docs/` Pages artifact and the GitHub Actions source
+
+## GitHub Pages Actions
+
+GitHub Pages deployment is handled by the `Deploy GitHub Pages` workflow. After this workflow is merged, confirm the repository Settings → Pages source is set to **GitHub Actions** and verify the first run publishes `docs/` successfully.
