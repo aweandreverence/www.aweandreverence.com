@@ -42,6 +42,13 @@ make format     # Format code with prettier
 - Use `@/` path aliases for all internal imports (e.g., `@/components/base_page`)
 - Import order (enforced by prettier): react → next → third-party → @/config → @/components → @/utils → @/styles → relative
 
+## Blog Editorial Work
+
+- Before drafting or substantially revising Jonathan Tsai's posts, read [VOICE.md](VOICE.md) and two or three relevant original posts linked there. Follow the author's current brief; do not use an earlier AI draft as the voice standard or invent personal experiences.
+- Keep editorial reference documents outside `src/posts/`, whose loader treats every entry as a post. [VOICE.md](VOICE.md) owns the detailed voice guidance; avoid duplicating it here.
+- Honor an explicit request for source-only editorial review: do not run a build or add generated `docs/` files or new screenshots until the author is ready. Keep the PR diff focused on source and documentation; label any earlier previews as reference only.
+- Use SPEAR proportionately: scope the brief, plan the argument, execute the draft, assess it against the rubric in `VOICE.md`, and resolve the review gaps. Distinguish editorial-review readiness from publication readiness; build/export and visual checks may be deferred during source-only review, not skipped before publication. Merging or deployment still requires explicit authorization.
+
 ## Security Guidelines
 
 - Never commit `.env` files, API keys, or credentials
@@ -52,6 +59,8 @@ make format     # Format code with prettier
 ## AI Checklist
 
 Before submitting changes:
+
+For explicitly requested source-only editorial review, mark build/export requirements as pending in the PR rather than running them. Apply the remaining relevant checks now and complete deferred checks before publication, as described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 - [ ] `npm run build` succeeds without errors
 - [ ] No relative `../` imports to sibling directories (use `@/` aliases)
