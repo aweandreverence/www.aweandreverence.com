@@ -1,6 +1,14 @@
 .post {
     width: 80%;
 
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 2.5rem 0 0.75rem;
+    }
+
     p {
         margin: 1.25rem 0 0 0;
         font-size: 1rem;
