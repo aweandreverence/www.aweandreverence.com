@@ -44,7 +44,7 @@ export function getPostMetadata(id) {
     };
 
     const title = post.meta.title;
-    const seoTitle = title
+    const seoTitle = (post.meta.slug || title)
         .toLowerCase()
         .replace(/[^a-z0-9]+/g, ' ')
         .trim()
