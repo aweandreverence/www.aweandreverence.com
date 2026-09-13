@@ -7,4 +7,4 @@ Screenshots of this site's locally rendered pages, attached to pull requests so 
 
 These are generated review artifacts from Awe & Reverence's own site, not third-party stock images. Site branding belongs to Awe & Reverence; Scripture displayed in the article retains the NASB/Lockman notice visible on the page.
 
-To recapture the article, run `make build`, serve `docs/` locally, and take full-page browser screenshots of `/blog/a-righteous-man-falls-seven-times-f7a2416/` at the viewport sizes above. Do not capture private browser state or credentials. Source: `src/posts/f7a2416.md` and the existing blog template.
+To recapture the article, run `make build`, serve `docs/` locally, and take full-page browser screenshots of `/blog/a-righteous-man-falls-seven-times-and-rises-again-f7a2416/` at the viewport sizes above. Do not capture private browser state or credentials. Source: `src/posts/f7a2416.md` and the existing blog template.
