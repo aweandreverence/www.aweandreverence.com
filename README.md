@@ -4,6 +4,13 @@
 
 Static Next.js site for [www.aweandreverence.com](https://www.aweandreverence.com/). Production output is committed in `docs/` for GitHub Pages.
 
+## Blog content
+
+- Published-post source lives in `src/posts/*.md`, with title, date, author, and tags in YAML front matter. The site generates article, blog-index, and tag pages from these files.
+- Read [VOICE.md](VOICE.md) when drafting or revising Jonathan Tsai's posts. It records his approved voice characteristics, links to source examples, and includes a concise editorial review rubric. Keep the specific author's brief authoritative.
+- Keep editorial documentation outside `src/posts/`: the current post loader treats every entry there as a post. `VOICE.md` is a repository reference, not a public blog entry.
+- Follow [CONTRIBUTING.md](CONTRIBUTING.md) for PRs, production-export updates, and visual review screenshots. Authoring guidance does not replace the technical requirements in [AGENTS.md](AGENTS.md).
+
 ## Deployment
 
 Merges to `master` trigger the `Deploy GitHub Pages` workflow, which uploads the committed `docs/` directory to GitHub Pages.
