@@ -16,6 +16,8 @@
 
 For non-visual changes (config, docs-only, build scripts), a screenshot is optional but appreciated.
 
+During explicitly requested source-only editorial review, new screenshots may be deferred along with the build. Existing previews may remain linked as clearly labeled references. Complete the applicable visual checks before publication.
+
 ## Build & Deploy
 
 This site uses NextJS with static export to the committed `docs/` directory, deployed to GitHub Pages by GitHub Actions after changes land on `master`.
@@ -26,6 +28,8 @@ make build
 ```
 
 Contributors should run `make build` to verify source changes and commit the resulting `docs/` updates when the site output changes. Do not push directly to `master`; merged PRs trigger the `Deploy GitHub Pages` workflow.
+
+Exception for explicitly requested source-only editorial review: do not build or include generated artifacts until the author is ready. Record the build/export as pending in the PR and keep it focused on source and documentation. This is a review-stage deferral, not permission to publish without an up-to-date export. See [VOICE.md](VOICE.md) for Jonathan's author voice and [AGENTS.md](AGENTS.md) for agent-specific guidance.
 
 After the workflow PR is merged, an admin must confirm repository Settings → Pages uses **GitHub Actions** as its source and verify the first successful Pages workflow run.
 
