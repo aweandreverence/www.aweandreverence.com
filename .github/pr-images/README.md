@@ -2,7 +2,7 @@
 
 Screenshots of this site's locally rendered pages, attached to pull requests so reviewers can inspect desktop and mobile presentation before merging.
 
-- `righteous-man-desktop.png` and `righteous-man-mobile.png`: full-page captures of the “A righteous man falls seven times” article at 1440 × 1100 and 390 × 844 viewport sizes.
+- `righteous-man-desktop.png` and `righteous-man-mobile.png`: full-page captures of the “A Righteous Man Falls Seven Times—and Rises Again” article at 1440 × 1100 and 390 × 844 viewport sizes.
 - Earlier images document the logo, header, and mobile-layout changes named in their filenames.
 
 These are generated review artifacts from Awe & Reverence's own site, not third-party stock images. Site branding belongs to Awe & Reverence; Scripture displayed in the article retains the NASB/Lockman notice visible on the page.
