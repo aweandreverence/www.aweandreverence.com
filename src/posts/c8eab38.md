@@ -3,6 +3,13 @@ title: 'Matthew 21:28-32 – What God Wants'
 date: '2011-01-20'
 author: 'Jonathan Tsai'
 tags: 'obedience'
+image: 'https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?fm=jpg&fit=crop&w=1200&h=630&q=85'
+imageAlt: 'Rows of grapevines stretching toward green hills.'
+imageCredit: 'Adele Payman'
+imageSource: 'https://unsplash.com/photos/vineyard-rows-with-green-rolling-hills-2oYMwuFgnTg'
+imageWidth: 1200
+imageHeight: 630
+description: 'The parable of the two sons in Matthew 21:28–32 reveals God’s call to repentance and genuine obedience.'
 ---
 
 Passage: Matthew 21:28-32

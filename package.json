@@ -5,6 +5,7 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
+        "check:blog-images": "node .github/check-blog-images.cjs",
         "start": "next start",
         "prepare": "husky",
         "format": "prettier --write .",

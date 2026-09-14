@@ -1,3 +1,5 @@
+export const SITE_URL = 'https://www.aweandreverence.com';
+
 export const SITE_TITLE = 'Awe & Reverence';
 
 export const PAGE_TITLES = {

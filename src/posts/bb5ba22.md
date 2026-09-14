@@ -4,6 +4,10 @@ date: '2026-03-01'
 author: 'Jonathan Tsai'
 tags: 'AI, artificial intelligence, technology, wisdom, stewardship, gospel, eschatology'
 image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1200&h=600&fit=crop'
+imageAlt: 'An ocean wave rising beneath clouds at sunset.'
+imageWidth: 1200
+imageHeight: 600
+description: 'A Christian software engineer reflects on AI, stewardship, human ministry, and the enduring word of God.'
 ---
 
 _The horse and its rider, thrown into the sea_

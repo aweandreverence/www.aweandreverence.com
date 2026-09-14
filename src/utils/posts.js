@@ -13,6 +13,7 @@ const POSTS_DIRECTORY = path.join(process.cwd(), 'src', 'posts');
 // Retrieves the full post, including metadata and HTML content
 export async function getPost(id) {
     const matterResult = getPostFrontMatter(id);
+    const metadata = getPostMetadata(id);
 
     const processedContent = await remark()
         .use(remarkHtml)
@@ -21,10 +22,8 @@ export async function getPost(id) {
     const contentHtml = processedContent.toString();
     const post = {
         id,
-        tags: getPostMetadata(id).tags,
-        meta: {
-            ...matterResult.data,
-        },
+        tags: metadata.tags,
+        meta: metadata.meta,
         content: {
             html: contentHtml,
         },
