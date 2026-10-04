@@ -51,3 +51,28 @@ Readers see the hero at the top of the article and can follow its credit to Unsp
 Use SPEAR for an image pass: scope the articles, plan the photo choices, update the frontmatter/template, then assess (1) coverage and unchanged article text, (2) photo suitability, crop, alt text and credit, (3) image delivery and crawler-readable metadata, and (4) desktop/mobile rendering and export parity. Resolve with a review PR and screenshots; merging/publishing still requires approval.
 
 Run `make build` and `npm run check:blog-images` before submitting. The check reads every exported article to catch missing heroes, duplicate or stale social tags, and incorrect canonical URLs. Also verify the remote images load and inspect desktop/mobile screenshots; the offline check cannot establish network availability or visual suitability. Commit the resulting `docs/` export with the source so an approved merge publishes the same pages that were reviewed.
+
+<!-- ar-engineering-handbook:start -->
+
+## A&R maintainers: Shared engineering guidance
+
+Reference revision: `5cef9e63509ede20e776b614ef44464454b57ebe`.
+
+- [Engineering handbook](https://github.com/aweandreverence/engineering/blob/5cef9e63509ede20e776b614ef44464454b57ebe/README.md)
+- [Architecture and ownership](https://github.com/aweandreverence/engineering/blob/5cef9e63509ede20e776b614ef44464454b57ebe/architecture.md)
+- [Applicable style guide](https://github.com/aweandreverence/engineering/blob/5cef9e63509ede20e776b614ef44464454b57ebe/style/typescript-ui.md)
+- [Review checklist](https://github.com/aweandreverence/engineering/blob/5cef9e63509ede20e776b614ef44464454b57ebe/review-checklist.md)
+- [Adoption and exceptions](https://github.com/aweandreverence/engineering/blob/5cef9e63509ede20e776b614ef44464454b57ebe/adoption.md)
+
+This is a private, optional reference for A&R maintainers. Outside contributors
+are not required to access it; this repository's public instructions remain
+self-contained and authoritative for their contributions. Do not copy private
+handbook contents into this public repository or upstream PRs.
+
+Keep repository-specific security, domain, build and deployment instructions in
+this repo. This reference does not authorize migrations, runtime upgrades, merges
+or deployments. Resolve substantive conflicts explicitly and record local
+exceptions; do not silently overwrite existing policy. Follow SPEAR proportionately:
+scope, plan, execute, assess, resolve. Update the pinned revision through a PR.
+
+<!-- ar-engineering-handbook:end -->
