@@ -1,45 +1,45 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/2_5j1s77ok6f4.js"
+    "static/chunks/23jljilzf40eb.js"
   ],
   "/_error": [
     "static/chunks/1r3arnh4_oeru.js"
   ],
   "/about": [
-    "static/chunks/0p7ay247k-ldo.js"
+    "static/chunks/1_ss89ge1mw-f.js"
   ],
   "/apprenticeship": [
-    "static/chunks/2jq5cr2s-e9c6.js"
+    "static/chunks/2f59z4bkkicht.js"
   ],
   "/apprenticeship/projects": [
-    "static/chunks/1zwf_ng0o9eft.js"
+    "static/chunks/0zjyajdcc9pgd.js"
   ],
   "/apprenticeship/projects/tictactoe": [
-    "static/chunks/0dsqnl8y9kmx-.js"
+    "static/chunks/1tsccxfpgs65k.js"
   ],
   "/blog": [
-    "static/chunks/3w7niwfg9_ij8.js"
+    "static/chunks/31uj_qi_cjr26.js"
   ],
   "/blog/[seoTitleAndId]": [
-    "static/chunks/37lq_ki4fgb6u.js"
+    "static/chunks/2jrl69_edpvjv.js"
   ],
   "/labs": [
-    "static/chunks/0efjdw0uzwzhi.js"
+    "static/chunks/2hj57d5_4u666.js"
   ],
   "/policies": [
-    "static/chunks/1m36goy9gypib.js"
+    "static/chunks/1ls_v5uiq637b.js"
   ],
   "/policies/privacy": [
-    "static/chunks/1vcavuy1idd35.js"
+    "static/chunks/1lsliyxqaii2u.js"
   ],
   "/policies/tos": [
-    "static/chunks/1r25az55g2t49.js"
+    "static/chunks/2o4g8wf0owkt6.js"
   ],
   "/tags": [
-    "static/chunks/3gt7645m6y3oe.js"
+    "static/chunks/3ohg24dkh-lh6.js"
   ],
   "/tags/[tagId]": [
-    "static/chunks/3c2u21awplv84.js"
+    "static/chunks/095a0ptc8lmo8.js"
   ],
   "__rewrites": {
     "afterFiles": [],
