@@ -4,6 +4,14 @@
 
 Static Next.js site for [www.aweandreverence.com](https://www.aweandreverence.com/). Production output is committed in `docs/` for GitHub Pages.
 
+## Site navigation
+
+The header (including the mobile menu) links to Home, Blog, Awesome.Bible,
+LetsPray.AI, Maskil, SDG.church, About, Labs, and Apprenticeship, in that order.
+About.Church and AB506.church are available in the footer on every page;
+the header’s About link opens the company’s About page. External resource
+links open in a new tab. No account is needed to use the navigation.
+
 ## Blog content
 
 - Published-post source lives in `src/posts/*.md`, with title, date, author, and tags in YAML front matter. The site generates article, blog-index, and tag pages from these files.

@@ -44,6 +44,22 @@ export function Footer({ children }) {
                     </div>
                 </div>
                 <hr className={css.divider} />
+                <nav className={css.resources} aria-label="More A&R resources">
+                    <a
+                        href="https://www.about.church"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        About.Church
+                    </a>
+                    <a
+                        href="https://www.ab506.church"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        AB506.church
+                    </a>
+                </nav>
                 <div className={css.legal}>
                     <Link href="/policies/privacy">Privacy Policy</Link>
                     {' · '}
